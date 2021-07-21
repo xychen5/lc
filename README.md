@@ -21,4 +21,5 @@
 | 题号 | 题名 | 类型 | 链接 | 使用算法 |
 | - | - | - | - | - |
 | 416 | 分割等和子集 | dp,arr | [https://leetcode-cn.com/problems/partition-equal-subset-sum](https://leetcode-cn.com/problems/partition-equal-subset-sum) | - |
-|  |  |  |  | |
+| 1877 | 最小最大数对和 | arr | [https://leetcode-cn.com/problems/minimize-maximum-pair-sum-in-array/](https://leetcode-cn.com/problems/minimize-maximum-pair-sum-in-array/) | - |
+|  |  |  |  |  |
