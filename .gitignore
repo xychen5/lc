@@ -34,3 +34,4 @@
 # cmake-build clion
 *cmake-build*
 .idea*
+tmp*

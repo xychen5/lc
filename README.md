@@ -14,7 +14,8 @@
 | 树结构 | tree |
 | 图结构 | graph |
 | 数组 | arr |
-|  |  |
+| 二分查找 | binSear |
+| | |
 
 
 ## 2 题解
@@ -22,4 +23,5 @@
 | - | - | - | - | - |
 | 416 | 分割等和子集 | dp,arr | [https://leetcode-cn.com/problems/partition-equal-subset-sum](https://leetcode-cn.com/problems/partition-equal-subset-sum) | - |
 | 1877 | 最小最大数对和 | arr | [https://leetcode-cn.com/problems/minimize-maximum-pair-sum-in-array/](https://leetcode-cn.com/problems/minimize-maximum-pair-sum-in-array/) | - |
+| 0611 | 有效三角个数 | dp,arr | [https://leetcode-cn.com/problems/valid-triangle-number/](https://leetcode-cn.com/problems/valid-triangle-number/) | binSear |
 |  |  |  |  |  |
