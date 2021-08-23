@@ -33,6 +33,13 @@ int main() {
         {0, 0, 0, 0}
     };
 
+    
+    vector<vector<int>> nums2d2 = {
+        {1,2},
+        {1,3},
+        {2,3}
+    };
+
     std::string str = "()(()())()(";
 
     Solution sl;
