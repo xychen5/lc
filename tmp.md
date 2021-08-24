@@ -5,7 +5,6 @@
 ## 2 解题思路
 
 ## 3 often main
-- 1 vector
 ```cpp
 #include <iostream>
 #include <iomanip>
