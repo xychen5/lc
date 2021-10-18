@@ -18,6 +18,13 @@
 #include <unordered_map>
 #include <map>
 
+struct ListNode {
+    int val;
+    ListNode *next;
+    ListNode(int x) : val(x), next(NULL) {}
+};
+
+
 using namespace std;
 int main() {
     // vector<int> nums = {1, 15, 5, 11};
@@ -32,6 +39,10 @@ int main() {
     };
 
     std::string str = "()(()())()(";
+
+    ListNode *n1 = new ListNode(1);
+    ListNode *n2 = new ListNode(2); n1->next = n2;
+    ListNode *n3 = new ListNode(3); n2->next = n3;
 
     Solution sl;
     std::cout << sl.triangleNumber(nums) << std::endl;
