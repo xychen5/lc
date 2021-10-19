@@ -24,7 +24,7 @@
 | 并查集 | unionSet(us) |
 | 排列组合 | permutation/combination(perm&comb) |
 | 回溯 | back tracking(bt) |
-
+| 原地查找改变 | saveSpace |
 
 ## 2 题解
 | 题号 | 题名 | 类型 | 链接 | 使用算法 |
@@ -33,12 +33,13 @@
 | 0053 | 最大子序和 | dp,arr | [https://leetcode-cn.com/problems/maximum-subarray/](https://leetcode-cn.com/problems/maximum-subarray/) | - |
 | 0062 | 不同路径1 | dp | [https://leetcode-cn.com/problems/unique-paths/](https://leetcode-cn.com/problems/unique-paths/) | - |
 | 0063 | 不同路径2 | dp | [https://leetcode-cn.com/problems/unique-paths-ii/](https://leetcode-cn.com/problems/unique-paths-ii/) | - |
+| 0073 | 矩阵置零 | saveSpace | [https://leetcode-cn.com/problems/set-matrix-zeroes/](https://leetcode-cn.com/problems/set-matrix-zeroes/) | - |
 | 0074 | 搜索二维矩阵 | binSear | [https://leetcode-cn.com/problems/search-a-2d-matrix/](https://leetcode-cn.com/problems/search-a-2d-matrix/) | - |
 | 0084 | 柱状图中最大矩形 | mono stack | [https://leetcode-cn.com/problems/largest-rectangle-in-histogram/](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) | - |
 | 0085 | 最大矩形 | mono stack | [https://leetcode-cn.com/problems/maximal-rectangle/submissions/](https://leetcode-cn.com/problems/maximal-rectangle/submissions/) | - |
 | 0123 | 买卖股票的最佳时机 | dp | [https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/) | - |
 | 0124 | 二叉树中的最大路径和 | dp | [https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/) | - |
-| 0141 | 单向链表有回环 | ll | [https://leetcode-cn.com/problems/linked-list-cycle/](https://leetcode-cn.com/problems/linked-list-cycle/) | floyd判圈 |
+| 0141 | 单向链表有回环 | ll, saveSpace | [https://leetcode-cn.com/problems/linked-list-cycle/](https://leetcode-cn.com/problems/linked-list-cycle/) | floyd判圈 |
 | 0233 | 数字1的个数 | perm/comb | [https://leetcode-cn.com/problems/number-of-digit-one/](https://leetcode-cn.com/problems/number-of-digit-one/) | - |
 | 0313 | 超级丑数 | heap | [https://leetcode-cn.com/problems/super-ugly-number/](https://leetcode-cn.com/problems/super-ugly-number/) | - |
 | 0413 | 等差数列划分 | arr | [https://leetcode-cn.com/problems/arithmetic-slices/](https://leetcode-cn.com/problems/arithmetic-slices/) | - |
