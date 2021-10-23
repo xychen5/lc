@@ -6,11 +6,8 @@
 # solve list
 ## 1 帮助符号
 这里给出问题类型的简称：
-|  |  |
+| 数据结构 |  |
 | - | - |
-| 动态规划 | dp |
-| dfs | dfs |
-| bfs | bfs |
 | 树结构 | tree |
 | 图结构 | graph |
 | 栈 | stack |
@@ -18,13 +15,20 @@
 | 最大/最小堆 | min/max heap |
 | 数组 | arr |
 | 链表 | linked list(ll) |
-| 二分查找 | binSear |
 | 优先队列 | priority queue |
 | 哈希 | hash |
+----------------------
+| 算法 |  |
+| - | - |
+| 动态规划 | dp |
+| dfs | dfs |
+| bfs | bfs |
 | 并查集 | unionSet(us) |
+| 二分查找 | binSear |
 | 排列组合 | permutation/combination(perm&comb) |
 | 回溯 | back tracking(bt) |
 | 原地查找改变 | saveSpace |
+| 前缀和 | prefixSum |
 
 ## 2 题解
 | 题号 | 题名 | 类型 | 链接 | 使用算法 |
@@ -51,7 +55,9 @@
 | 0516 | 最长回文子序列 | dp | [https://leetcode-cn.com/problems/longest-palindromic-subsequence/](https://leetcode-cn.com/problems/longest-palindromic-subsequence/) | - |
 | 0526 | 优美排列 | bt,arr | [https://leetcode-cn.com/problems/beautiful-arrangement](https://leetcode-cn.com/problems/beautiful-arrangement) | - |
 | 0611 | 有效三角个数 | dp,arr | [https://leetcode-cn.com/problems/valid-triangle-number/](https://leetcode-cn.com/problems/valid-triangle-number/) | - |
-| 0684 | 冗余链接 | tree,us,graph | [https://leetcode-cn.com/problems/redundant-connection](https://leetcode-cn.com/problems/redundant-connection) | - |
+| 0684 | 冗余链接 | tree,us,graph | [https://leetcode-cn.com/problems/redundant-connection](https://leetcode-cn.com/problems/redundant-connection) | 并查集 |
+| 0685 | 冗余链接2 | tree,us,graph | [https://leetcode-cn.com/problems/redundant-connection-ii](https://leetcode-cn.com/problems/redundant-connection-ii) | 并查集 |
+| 1171 | 移除0和子链表 | ll,prefixSum | [https://leetcode-cn.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/](https://leetcode-cn.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/) | 前缀和 |
 | 1583 | 不开心朋友个数 | arr,hash | [https://leetcode-cn.com/problems/count-unhappy-friends/](https://leetcode-cn.com/problems/count-unhappy-friends/) | - |
 | 1877 | 最小最大数对和 | arr | [https://leetcode-cn.com/problems/minimize-maximum-pair-sum-in-array/](https://leetcode-cn.com/problems/minimize-maximum-pair-sum-in-array/) | - |
 |  |  |  |  |  |
