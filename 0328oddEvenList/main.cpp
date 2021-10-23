@@ -30,60 +30,58 @@ struct ListNode {
  */
 class Solution {
 public:
-    ListNode *detectCycle(ListNode *head) {
-        ListNode * slow = head;
-        ListNode * fast = head;
-
-        int cycleLen = 0;
-        int fastMov = 0;
-        int slowMov = 0;
-        // fast: 3 0 2 4 0 2 4 0 2 4 0
-        // slow: 3 2 0 4 2 0 4
-        // fast: 1 1 1 1
-        // slow: 1 2 1
-
-        while(fast != nullptr) {
-            // move fast ptr
-            if(!fast) {
-                return nullptr; // has end
-            }
-            fast = fast->next;
-            if(!fast) {
-                return nullptr; // has end
-            }
-            fast = fast->next;
-            fastMov += 2;
-
-            // move slow
-            slow = slow->next;
-            slowMov += 1;
+    ListNode* oddEvenList(ListNode* head) {
+        int len = 0;
+        ListNode* p = head;
+        while(p != nullptr) {
+            ++len;
             
-            // judge if fast catch slow
-            if(slow == fast) {
-                break;
-            }
-        }
-        if(!fast){
-            return nullptr;
+            p = p->next;
         }
 
-        cycleLen = fastMov - slowMov;
-        ListNode *pRes = head;
-        ListNode *curRes = head;
-        for (int i = 0; i < slowMov+1; ++i) {
-            for(int k = 0; k < fastMov+1; ++k) {
-                curRes = curRes->next;
-                if(pRes == curRes) {
-                    return pRes;
+        if (!head || (!(head->next))) {
+            return head;
+        }
+        // 1->2->3->4->5->6
+        // 1->3->2->4->5->6
+
+        // 1->2->3->null
+        // 1->3->2->null
+        ListNode* oddStPtr = head;
+        ListNode* oddEdPtr = head;
+        ListNode* evenStPtr = head->next;
+        ListNode* evenEdPtr = head->next;
+        ListNode* curPtr = evenEdPtr->next;
+
+        // 1->2->3->4->5->6
+        // 1->3->2->4->5->6
+
+        // 1->2->3->4->5->6
+        // 1->3->2->4->5->6
+        while(1){
+            if(!curPtr) {
+                return head;
+            }
+
+            oddEdPtr->next = curPtr; // 3->5
+            evenEdPtr->next = curPtr->next; // 4->6
+            evenEdPtr = curPtr->next; // ed: 4 => 6
+            curPtr->next = evenStPtr; // 5->2
+            oddEdPtr = curPtr;
+
+            // return head;
+            if(evenEdPtr!=nullptr) {
+                curPtr = evenEdPtr->next;
+                if(curPtr == nullptr) {
+                    return head;
                 }
+            }else {
+                return head;
             }
-            pRes = pRes->next;
-            curRes = pRes;
         }
-        return nullptr;
     }
-};
 
+};
 int main() {
     // vector<int> nums = {1, 15, 5, 11};
     // vector<int> nums = {1, 3};

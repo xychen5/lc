@@ -30,55 +30,77 @@ struct ListNode {
  */
 class Solution {
 public:
-    ListNode *detectCycle(ListNode *head) {
-        ListNode * slow = head;
-        ListNode * fast = head;
-
-        int cycleLen = 0;
-        int fastMov = 0;
-        int slowMov = 0;
-        // fast: 3 0 2 4 0 2 4 0 2 4 0
-        // slow: 3 2 0 4 2 0 4
-        // fast: 1 1 1 1
-        // slow: 1 2 1
-
-        while(fast != nullptr) {
-            // move fast ptr
-            if(!fast) {
-                return nullptr; // has end
-            }
-            fast = fast->next;
-            if(!fast) {
-                return nullptr; // has end
-            }
-            fast = fast->next;
-            fastMov += 2;
-
-            // move slow
-            slow = slow->next;
-            slowMov += 1;
-            
-            // judge if fast catch slow
-            if(slow == fast) {
-                break;
-            }
+    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
+        // reverse two of them
+        vector<int> list1;
+        vector<int> list2;
+        ListNode * h1 = l1;
+        while(h1 != nullptr) {
+            list1.emplace_back(h1->val);
+            h1 = h1->next;
         }
-        if(!fast){
-            return nullptr;
+        ListNode * h2 = l2;
+        while(h2 != nullptr) {
+            list2.emplace_back(h2->val);
+            h2 = h2->next;
         }
-
-        cycleLen = fastMov - slowMov;
-        ListNode *pRes = head;
-        ListNode *curRes = head;
-        for (int i = 0; i < slowMov+1; ++i) {
-            for(int k = 0; k < fastMov+1; ++k) {
-                curRes = curRes->next;
-                if(pRes == curRes) {
-                    return pRes;
+        
+        int addLen = std::max(list1.size(), list2.size());
+        reverse(list1.begin(), list1.end());
+        reverse(list2.begin(), list2.end());
+        
+        bool lt10 = false;
+        if(list1.size() > list2.size()) {
+            list2.resize(addLen, 0);
+            for(size_t i = 0; i < addLen; ++i) {
+                int nextBit = (int)lt10 + list1[i] + list2[i];
+                if(nextBit >= 10){
+                    list1[i] = nextBit - 10;
+                    lt10 = true;
+                } else {
+                    list1[i] = nextBit;
+                    lt10 = false;
                 }
             }
-            pRes = pRes->next;
-            curRes = pRes;
+            reverse(list1.begin(), list1.end());
+
+            h1 = l1;
+            int tmpI = 0;
+            while(h1 != nullptr) {
+                h1->val = list1[tmpI++];
+                h1 = h1->next;
+            }
+            if(lt10) {
+                ListNode* newHead = new ListNode(1, l1);
+                return newHead;
+            }
+            return l1;
+        }else {
+            list1.resize(addLen, 0);
+            for(size_t i = 0; i < addLen; ++i) {
+                int nextBit = (int)lt10 + list1[i] + list2[i];
+                if(nextBit >= 10){
+                    list2[i] = nextBit - 10;
+                    lt10 = true;
+                } else {
+                    list2[i] = nextBit;
+                    lt10 = false;
+                }
+            }
+            reverse(list2.begin(), list2.end());
+
+            h2 = l2;
+            int tmpI = 0;
+            while(h2 != nullptr) {
+                h2->val = list2[tmpI++];
+                h2 = h2->next;
+            }
+            if(lt10) {
+                ListNode* newHead = new ListNode(1, l2);
+                return newHead;
+            }
+            
+            return l2;
         }
         return nullptr;
     }
