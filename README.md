@@ -17,6 +17,7 @@
 | 链表 | linked list(ll) |
 | 优先队列 | priority queue |
 | 哈希 | hash |
+| 二叉搜索树 | BST |
 ----------------------
 | 算法 |  |
 | - | - |
@@ -37,10 +38,12 @@
 | 0053 | 最大子序和 | dp,arr | [https://leetcode-cn.com/problems/maximum-subarray/](https://leetcode-cn.com/problems/maximum-subarray/) | - |
 | 0062 | 不同路径1 | dp | [https://leetcode-cn.com/problems/unique-paths/](https://leetcode-cn.com/problems/unique-paths/) | - |
 | 0063 | 不同路径2 | dp | [https://leetcode-cn.com/problems/unique-paths-ii/](https://leetcode-cn.com/problems/unique-paths-ii/) | - |
+| 0067 | 旋转链表 | ll | [https://leetcode-cn.com/problems/rotate-list/](https://leetcode-cn.com/problems/rotate-list/) | - |
 | 0073 | 矩阵置零 | saveSpace | [https://leetcode-cn.com/problems/set-matrix-zeroes/](https://leetcode-cn.com/problems/set-matrix-zeroes/) | - |
 | 0074 | 搜索二维矩阵 | binSear | [https://leetcode-cn.com/problems/search-a-2d-matrix/](https://leetcode-cn.com/problems/search-a-2d-matrix/) | - |
 | 0084 | 柱状图中最大矩形 | mono stack | [https://leetcode-cn.com/problems/largest-rectangle-in-histogram/](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) | - |
 | 0085 | 最大矩形 | mono stack | [https://leetcode-cn.com/problems/maximal-rectangle/submissions/](https://leetcode-cn.com/problems/maximal-rectangle/submissions/) | - |
+| 0109 | 链表转BST | ll,bst | [https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/) | 递归，分治 |
 | 0123 | 买卖股票的最佳时机 | dp | [https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/) | - |
 | 0124 | 二叉树中的最大路径和 | dp | [https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/) | - |
 | 0141 | 单向链表有回环 | ll, saveSpace | [https://leetcode-cn.com/problems/linked-list-cycle/](https://leetcode-cn.com/problems/linked-list-cycle/) | floyd判圈 |
