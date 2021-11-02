@@ -8,7 +8,7 @@
 subSum[j:i]，本来需要遍历所有的j找出为k的subarray，
 但是换个思路：  其实就是找i之前，有多少个前缀和为 preSum[j] - k，
 那么我们把前缀和用hash存一下，那不就能够很快找到了？
-```
+```cpp
 class Solution {
 public:
     int subarraySum(vector<int>& nums, int k) {
