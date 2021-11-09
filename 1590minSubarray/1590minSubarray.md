@@ -1,4 +1,4 @@
-## 0862 最短移除子数组以便被k整除
+## 1590 最短移除子数组以便被k整除
 
 ### 1 题目
 [https://leetcode-cn.com/problems/make-sum-divisible-by-p/](https://leetcode-cn.com/problems/make-sum-divisible-by-p/)
