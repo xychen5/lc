@@ -79,4 +79,6 @@
 | 1703 | 最小移动数量获得连续k个1 | math,prefixSum,mw | [https://leetcode-cn.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones](https://leetcode-cn.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones) | 滑动窗口,前缀和 |
 | 1760 | 球的出口 | sim | [https://leetcode-cn.com/problems/where-will-the-ball-fall/](https://leetcode-cn.com/problems/where-will-the-ball-fall/) | - |
 | 1877 | 最小最大数对和 | arr | [https://leetcode-cn.com/problems/minimize-maximum-pair-sum-in-array/](https://leetcode-cn.com/problems/minimize-maximum-pair-sum-in-array/) | - |
+
+| 1889 | 最小空间浪费 | arr,binSear,prefixSum | [https://leetcode-cn.com/problems/minimum-space-wasted-from-packaging/submissions/](https://leetcode-cn.com/problems/minimum-space-wasted-from-packaging/submissions/) | 二分查找,前缀和 |
 |  |  |  |  |  |
