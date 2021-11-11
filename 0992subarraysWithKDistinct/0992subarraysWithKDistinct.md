@@ -4,7 +4,7 @@
 [https://leetcode-cn.com/problems/subarrays-with-k-different-integers/submissions/](https://leetcode-cn.com/problems/subarrays-with-k-different-integers/submissions/)
 
 ### 2 解题思路
-- 1 正常思路：
+- 1 正常思路： (于0904[https://leetcode-cn.com/problems/fruit-into-baskets/](https://leetcode-cn.com/problems/fruit-into-baskets/)实现)
   - 1.1 首先窗口是必须的，即为[st, ed]，那么保证这个窗口时刻含有k个不同变量，然后求出来每个以ed为结尾的子数组的个数求和即可
   - 1.2 那么以ed为结尾的窗口[st, ed]的子数组个数求法，假设k=2，窗口为1,2，1,2,那么以ed为结尾，st就向前移动，直到窗口内的不同元素个数减少到了k-1，此时st移动到第二个2的位置，一共移动了3次，也就是说以ed为结尾的含有k个不同变量的子数组个数为3。
   - 1.3 其中的复杂之地在于：如何判断窗口内不同元素的个数，我们采用经典的空间换时间的方法(因为所有元素的值不会大于数组本身长度),用freq[val]记录val出现的次数， 倘若长度不限呢？那就需要使用unordered_map来记录当前窗口所有元素的出现次数，然后每移动一次st需要遍历一遍这个map来判断当前窗口内不同元素的个数，那么整体复杂度为： o(n * k * k)
