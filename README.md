@@ -19,6 +19,7 @@
 | 优先队列 | priority queue |
 | 哈希 | hash |
 | 二叉搜索树 | BST |
+| 差分数组 | diff array(da) |
 ----------------------
 | 算法 |  |
 | - | - |
@@ -70,6 +71,7 @@
 | 0874 | 模拟机器人行走 | sim | [https://leetcode-cn.com/problems/walking-robot-simulation/](https://leetcode-cn.com/problems/walking-robot-simulation/) | - |
 | 0904 | 水果成蓝(同0992) | mv,map | [https://leetcode-cn.com/problems/fruit-into-baskets/](https://leetcode-cn.com/problems/fruit-into-baskets/) | 滑动窗口,map |
 | 0992 | 不同元素不大于k个的子数组个数 | mw | [https://leetcode-cn.com/problems/subarrays-with-k-different-integers/submissions/](https://leetcode-cn.com/problems/subarrays-with-k-different-integers/submissions/) | 滑动窗口 |
+| 0995 |  K 连续位的最小翻转次数 | mw,da | [https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips/](https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips/) | 滑动窗口，差分数组 |
 | 1124 | 最长良好表现时间段 | hash,monoStack,prefixSum | [https://leetcode-cn.com/problems/longest-well-performing-interval/](https://leetcode-cn.com/problems/longest-well-performing-interval/) | 前缀和，单调栈 |
 | 1171 | 移除0和子链表 | ll,prefixSum | [https://leetcode-cn.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/](https://leetcode-cn.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/) | 前缀和 |
 | 1292 | 最大正方形边长 | bs,prefixSum | [https://leetcode-cn.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/](https://leetcode-cn.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/) | 前缀和 |
