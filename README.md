@@ -20,6 +20,7 @@
 | 哈希 | hash |
 | 二叉搜索树 | BST |
 | 差分数组 | diff array(da) |
+| 强联通子图 | scc(strongly connected components)|
 ----------------------
 | 算法 |  |
 | - | - |
@@ -59,12 +60,14 @@
 | 0313 | 超级丑数 | heap | [https://leetcode-cn.com/problems/super-ugly-number/](https://leetcode-cn.com/problems/super-ugly-number/) | - |
 | 0328 | 奇偶链表 | ll, saveSpace | [https://leetcode-cn.com/problems/odd-even-linked-list/](https://leetcode-cn.com/problems/odd-even-linked-list/) | - |
 | 0375 | 猜数字大小2的最低金额 | dp,minimax | [https://leetcode-cn.com/problems/guess-number-higher-or-lower-ii/](https://leetcode-cn.com/problems/guess-number-higher-or-lower-ii/) | 区间dp，极小极大算法 |
+| 0391 | 完美矩形 | - | [https://leetcode-cn.com/problems/perfect-rectangle/](https://leetcode-cn.com/problems/perfect-rectangle/) | trick |
 | 0413 | 等差数列划分 | arr | [https://leetcode-cn.com/problems/arithmetic-slices/](https://leetcode-cn.com/problems/arithmetic-slices/) | - |
 | 0416 | 分割等和子集 | dp,arr | [https://leetcode-cn.com/problems/partition-equal-subset-sum](https://leetcode-cn.com/problems/partition-equal-subset-sum) | - |
 | 0445 | 两数相加 | ll | [https://leetcode-cn.com/problems/add-two-numbers-ii/submissions/](https://leetcode-cn.com/problems/add-two-numbers-ii/submissions/) |  |
 | 0466 | 等差数列划分 | dp,arr | [https://leetcode-cn.com/problems/arithmetic-slices-ii-subsequence/](https://leetcode-cn.com/problems/arithmetic-slices-ii-subsequence/) | - |
 | 0516 | 最长回文子序列 | dp | [https://leetcode-cn.com/problems/longest-palindromic-subsequence/](https://leetcode-cn.com/problems/longest-palindromic-subsequence/) | - |
 | 0526 | 优美排列 | bt,arr | [https://leetcode-cn.com/problems/beautiful-arrangement](https://leetcode-cn.com/problems/beautiful-arrangement) | - |
+| 0547 | 找无向图连通子图个数 | dfs,scc | [https://leetcode-cn.com/problems/number-of-provinces/](https://leetcode-cn.com/problems/number-of-provinces/) | 强连图子图，dfs |
 | 0560 | 子串和为k | arr,hash | [https://leetcode-cn.com/problems/subarray-sum-equals-k/](https://leetcode-cn.com/problems/subarray-sum-equals-k/) | prefixSum |
 | 0611 | 有效三角个数 | dp,arr | [https://leetcode-cn.com/problems/valid-triangle-number/](https://leetcode-cn.com/problems/valid-triangle-number/) | - |
 | 0684 | 冗余链接 | tree,us,graph | [https://leetcode-cn.com/problems/redundant-connection](https://leetcode-cn.com/problems/redundant-connection) | 并查集 |
