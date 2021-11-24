@@ -1,4 +1,4 @@
-# 0560subArraySum 子数组和为k
+# 1546最大非重叠数组
 
 ## 1 题目
 [https://leetcode-cn.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/submissions/](https://leetcode-cn.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/submissions/)

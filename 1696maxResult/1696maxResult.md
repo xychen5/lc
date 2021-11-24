@@ -1,4 +1,4 @@
-## 0375 此数字大小所需最小金额
+## 1696 最大结果
 
 ### 1 题目
 [https://leetcode-cn.com/problems/jump-game-vi/submissions/](https://leetcode-cn.com/problems/jump-game-vi/submissions/)

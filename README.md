@@ -37,6 +37,7 @@
 | 数学 | math |
 | 滑动窗口 | mw |
 | 极大极小 | minimax |
+| 拓扑排序 | topoSort |
 
 ## 2 题解
 | 题号 | 题名 | 类型 | 链接 | 使用算法 |
@@ -90,6 +91,7 @@
 | 1696 | 最大跳跃所得 | mw,heap | [https://leetcode-cn.com/problems/jump-game-vi/submissions/](https://leetcode-cn.com/problems/jump-game-vi/submissions/) | 滑动窗口，最大堆 |
 | 1703 | 最小移动数量获得连续k个1 | math,prefixSum,mw | [https://leetcode-cn.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones](https://leetcode-cn.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones) | 滑动窗口,前缀和 |
 | 1760 | 球的出口 | sim | [https://leetcode-cn.com/problems/where-will-the-ball-fall/](https://leetcode-cn.com/problems/where-will-the-ball-fall/) | - |
+| 1857 | 有向图中最大颜色值 | graph,topoSort,dp | [https://leetcode-cn.com/problems/largest-color-value-in-a-directed-graph/](https://leetcode-cn.com/problems/largest-color-value-in-a-directed-graph/) | 拓扑排序，动态规划 |
 | 1877 | 最小最大数对和 | arr | [https://leetcode-cn.com/problems/minimize-maximum-pair-sum-in-array/](https://leetcode-cn.com/problems/minimize-maximum-pair-sum-in-array/) | - |
 | 1889 | 最小空间浪费 | arr,binSear,prefixSum | [https://leetcode-cn.com/problems/minimum-space-wasted-from-packaging/submissions/](https://leetcode-cn.com/problems/minimum-space-wasted-from-packaging/submissions/) | 二分查找,前缀和 |
 |  |  |  |  |  |
