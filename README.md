@@ -29,7 +29,8 @@
 | bfs | bfs |
 | 并查集 | unionSet(us) |
 | 二分查找 | binSear/bs |
-| 排列组合 | permutation/combination(perm&comb) |
+| 排列组合 | permutation/combination(perm,comb) |
+| 字典序 | lexical order/dictionary order(dictOrder) |
 | 回溯 | back tracking(bt) |
 | 原地查找改变 | saveSpace |
 | 前缀和 | prefixSum |
@@ -96,4 +97,5 @@
 | 1857 | 有向图中最大颜色值 | graph,topoSort,dp | [https://leetcode-cn.com/problems/largest-color-value-in-a-directed-graph/](https://leetcode-cn.com/problems/largest-color-value-in-a-directed-graph/) | 拓扑排序，动态规划 |
 | 1877 | 最小最大数对和 | arr | [https://leetcode-cn.com/problems/minimize-maximum-pair-sum-in-array/](https://leetcode-cn.com/problems/minimize-maximum-pair-sum-in-array/) | - |
 | 1889 | 最小空间浪费 | arr,binSear,prefixSum | [https://leetcode-cn.com/problems/minimum-space-wasted-from-packaging/submissions/](https://leetcode-cn.com/problems/minimum-space-wasted-from-packaging/submissions/) | 二分查找,前缀和 |
+| 2014 | 重复 K 次的最长子序列 | dictOrder,perm | [https://leetcode-cn.com/problems/largest-color-value-in-a-directed-graph/](https://leetcode-cn.com/problems/largest-color-value-in-a-directed-graph/) | 排列，字典序 |
 |  |  |  |  |  |
