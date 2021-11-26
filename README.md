@@ -45,6 +45,8 @@
 | 题号 | 题名 | 类型 | 链接 | 使用算法 |
 | - | - | - | - | - |
 | 0032 | 最长有效括号 | dp,arr,stack | [https://leetcode-cn.com/problems/longest-valid-parentheses/](https://leetcode-cn.com/problems/longest-valid-parentheses/) | - |
+| 0046 | 全排列 | perm |[https://leetcode-cn.com/problems/permutations/](https://leetcode-cn.com/problems/permutations/)  | perm |
+| 0047 | 去重全排列 | perm | [https://leetcode-cn.com/problems/permutations-ii/](https://leetcode-cn.com/problems/permutations-ii/) | perm |
 | 0053 | 最大子序和 | dp,arr | [https://leetcode-cn.com/problems/maximum-subarray/](https://leetcode-cn.com/problems/maximum-subarray/) | - |
 | 0062 | 不同路径1 | dp | [https://leetcode-cn.com/problems/unique-paths/](https://leetcode-cn.com/problems/unique-paths/) | - |
 | 0063 | 不同路径2 | dp | [https://leetcode-cn.com/problems/unique-paths-ii/](https://leetcode-cn.com/problems/unique-paths-ii/) | - |

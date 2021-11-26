@@ -1,4 +1,4 @@
-## 1857largestPathValue 路径最大节点颜色数
+## 2014 重复 K 次的最长子序列
 
 ### 1 题目
 [https://leetcode-cn.com/problems/largest-color-value-in-a-directed-graph/](https://leetcode-cn.com/problems/largest-color-value-in-a-directed-graph/)
@@ -60,6 +60,7 @@
             chooseN3(tmpDq, n - 1, res, tmpRes);
             tmpRes.pop_back();
         }
+    }
 ```
 最后中实现总代码：
 ```cpp
@@ -222,6 +223,7 @@ public:
 - 2 意识到一个排列，左侧属于高位，打个比方，若全排列对应的都有一个数字表示该排列的大小，那么左侧值越大，那么排列越大
 
 ```sh   
+ref: https://blog.51cto.com/u_4925054/884291
 全排列（非递归求顺序）算法  
 1、建立位置数组，即对位置进行排列，排列成功后转换为元素的排列；  
 2、按如下算法求全排列：  
