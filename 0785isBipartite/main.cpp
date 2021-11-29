@@ -1,20 +1,21 @@
-## 0765minSwapsCouple
+// ConsoleApplication1.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+//
 
-### 1 题目
-[https://leetcode-cn.com/problems/couples-holding-hands/](https://leetcode-cn.com/problems/couples-holding-hands/)
+#include <iostream>
+#include <iostream>
+#include <iomanip>
+#include <vector>
+#include <algorithm>
+#include <limits.h>
+#include <numeric>
+#include <list>
+#include <queue>
+#include <unordered_set>
+#include <unordered_map>
+#include <map>
+#include <set>
 
-### 2 解题思路
-- 0 一句话：找连通子图，每个连通子图节点数－1之和即为结果
-- 1 普通思路
-对于每一个2k - 2， 2k - 1的连续两个座位去找，2k - 2上的人的情侣，把它换到2k - 1位置上，遍历k即可 o(n**2)
-- 2 改进思路
-考虑到这样一个事实：
-如果有8个座位，然后所有情侣都没办法相邻而坐，则考虑：将在2k-2和2k-1座位上的相邻两人但不是情侣创建一条边，节点则是情侣的cp序号
-(比如4,5序号的情侣对应一个节点，为5/2 == 4/2 == 2)
-然后我们可以知道，这个图只有一个连通子图，然后其节点数量为4，那么需要交换的次数为4-1 = 3，
-> 容易被迷惑的地方： 一次交换至少能够完成一对情侣，只有最后的一次交换能够完成两队情侣，其余均只能完成一次
-> 所以说这个最小交换次数，其实别反复换，算出来的就是最小的
-```cpp
+using namespace std;
 class Solution {
 public:
     int minSwapsCouples(vector<int>& row) {
@@ -65,4 +66,20 @@ public:
         }
     }
 }
-```
+
+int main()
+{
+    // vector<int> nums = {1, 15, 5, 11};
+    // vector<int> nums = {1, 3};
+    // vector<int> nums = {1, 3};
+    int n = 2;
+    vector<int> nums1d = { 1, 0 };
+    vector<vector<int>> nums2d1 = { {1}, {0} };
+    vector<vector<int>> nums2d4 = { {1,1,3,3},{3,1,4,2},{3,2,4,4},{1,3,2,4},{2,3,3,4} };
+    Solution sl;
+    // std::cout << sl.medianSlidingWindow(nums1d, 3) << std::endl;
+
+    // std::cout << ios::left << std::setw(20) << "Hello, World!" << std::setw(5) << "a s " << 1 << std::endl;
+    return 0;
+    std::cout << "Hello World!\n";
+}
