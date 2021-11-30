@@ -41,6 +41,7 @@
 | 拓扑排序 | topoSort |
 | 逆向思维 | reverseThink |
 | 取巧 | trick |
+
 ## 2 题解
 | 题号 | 题名 | 类型 | 链接 | 使用算法 |
 | - | - | - | - | - |
@@ -80,6 +81,7 @@
 | 0684 | 冗余链接 | tree,us,graph | [https://leetcode-cn.com/problems/redundant-connection](https://leetcode-cn.com/problems/redundant-connection) | 并查集 |
 | 0685 | 冗余链接2 | tree,us,graph | [https://leetcode-cn.com/problems/redundant-connection-ii](https://leetcode-cn.com/problems/redundant-connection-ii) | 并查集 |
 | 0765 | 情侣交换最少 | us | [https://leetcode-cn.com/problems/couples-holding-hands/](https://leetcode-cn.com/problems/couples-holding-hands/) | 并查集 |
+| 0778 | 泳池上升水位游泳 | graph,us | [https://leetcode-cn.com/problems/swim-in-rising-water/](https://leetcode-cn.com/problems/swim-in-rising-water/) | 并查集，dfs，bfs |
 | 0785 | 是否为二分图 | graph,bfs,us,dfs,biPart | [https://leetcode-cn.com/problems/is-graph-bipartite/](https://leetcode-cn.com/problems/is-graph-bipartite/) | 二分图，并查集，电dfs，bfs |
 | 0862 | 和大于k的最短子数组长度 | monoQueue,prefixSum | [https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k/](https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k/) | 单调队列，前缀和 |
 | 0874 | 模拟机器人行走 | sim | [https://leetcode-cn.com/problems/walking-robot-simulation/](https://leetcode-cn.com/problems/walking-robot-simulation/) | - |
