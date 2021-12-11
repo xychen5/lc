@@ -104,6 +104,7 @@
 | 1373 | 二叉搜索子树的最大键值和 | bst | [https://leetcode-cn.com/problems/maximum-sum-bst-in-binary-tree/](https://leetcode-cn.com/problems/maximum-sum-bst-in-binary-tree/) | 二叉搜索树 |
 | 1472 | 浏览器历史 | stack | [https://leetcode-cn.com/problems/design-browser-history/](https://leetcode-cn.com/problems/design-browser-history/) | - |
 | 1546 | 非重叠子数组和的个数 | prefixSum,hash | [https://leetcode-cn.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/submissions/](https://leetcode-cn.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/submissions/) | 前缀和 |
+| 1569 | 将子数组重新排序得到同一个二叉查找树的方案数 | bst，recur | [https://leetcode-cn.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/](https://leetcode-cn.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/) | 二叉搜索树，recur |
 | 1583 | 不开心朋友个数 | arr,hash | [https://leetcode-cn.com/problems/count-unhappy-friends/](https://leetcode-cn.com/problems/count-unhappy-friends/) | - |
 | 1590 | 最短子数组移除被k整除 | prefixSum,hash | [https://leetcode-cn.com/problems/make-sum-divisible-by-p/](https://leetcode-cn.com/problems/make-sum-divisible-by-p/) | 前缀和，hash |
 | 1669 | 合并两个链表 | ll | [https://leetcode-cn.com/problems/merge-in-between-linked-lists/](https://leetcode-cn.com/problems/merge-in-between-linked-lists/) | - |
