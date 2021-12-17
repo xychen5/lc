@@ -23,6 +23,7 @@
   - 2.2 额外说一下数组离散化，也就是不关系数字大小本身，只关心他们之间的相对排位
 - 3 那么小改变在哪里呢？
   - 就是查一次查不出来了，要查两次做一个差
+  - 还有一点就是，注意将所有要query和update的值，都用序号表示，这样避免tree过大
 ```cpp
         for a valid s(i, j) we shall find:
              preSum[j] - ub <= preSum[i] <= preSum[j] - lb
