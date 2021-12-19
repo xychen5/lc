@@ -18,11 +18,14 @@
 | 链表 | linked list(ll) |
 | 优先队列 | priority queue |
 | 哈希 | hash |
-| 二叉搜索树 | bst |
 | 差分数组 | diff array(da) |
 | 强联通子图 | scc(strongly connected components)|
-| 二叉索引树(树状数组) | bst(binary indexed tree) |
+| 二叉搜索树 | bst |
+| 二叉索引树(树状数组) | bit(binary indexed tree) |
+| 线段树 | segTree(segment Tree) |
+
 ----------------------
+
 | 算法 |  |
 | - | - |
 | 动态规划 | dp |
@@ -85,6 +88,7 @@
 | 0445 | 两数相加 | ll | [https://leetcode-cn.com/problems/add-two-numbers-ii/submissions/](https://leetcode-cn.com/problems/add-two-numbers-ii/submissions/) |  |
 | 0466 | 等差数列划分 | dp,arr | [https://leetcode-cn.com/problems/arithmetic-slices-ii-subsequence/](https://leetcode-cn.com/problems/arithmetic-slices-ii-subsequence/) | - |
 | 0480 | 滑动窗口中位数 | mw,mset | [https://leetcode-cn.com/problems/sliding-window-median/](https://leetcode-cn.com/problems/sliding-window-median/) | 滑动窗口,multiset |
+| 0493 | 翻转对 | bit/segTree | [https://leetcode-cn.com/problems/reverse-pairs/](https://leetcode-cn.com/problems/reverse-pairs/) | bit/segTree |
 | 0516 | 最长回文子序列 | dp | [https://leetcode-cn.com/problems/longest-palindromic-subsequence/](https://leetcode-cn.com/problems/longest-palindromic-subsequence/) | - |
 | 0526 | 优美排列 | bt,arr | [https://leetcode-cn.com/problems/beautiful-arrangement](https://leetcode-cn.com/problems/beautiful-arrangement) | - |
 | 0547 | 找无向图连通子图个数 | dfs,scc | [https://leetcode-cn.com/problems/number-of-provinces/](https://leetcode-cn.com/problems/number-of-provinces/) | 强连图子图，dfs |
