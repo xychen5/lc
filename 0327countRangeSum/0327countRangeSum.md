@@ -102,3 +102,172 @@ public:
     }
 };
 ```
+
+### 3 使用线段树解题
+注意其中很重要的一点：
+对于线段树中插入一个节点时，需要对沿路所有节点的sum加上要插入的节点的值，找这个节点位置的时候，
+需要找到root左右管辖范围的中间值mid，此时务必使用>>1去做，因为获得mid我们要求其为 floor(left + right),
+但是：(cpp和python对于移位和除法的逻辑是相同的)，这里就显示出了2者的区别，
+当然在数字都为正数的时候不会出错！
+```python
+>>> int((-1 + 0) / 2)
+0
+>>> int((-1 + 0)  >> 1)
+-1
+```
+
+```cpp
+class Solution {
+public:
+    class SegTree {
+    public:
+        struct SegNode {
+            long long  leftBound = 0, rightBound = 0, curSum = 0;
+            SegNode* lChild = nullptr;
+            SegNode* rChild = nullptr;
+            SegNode(long long lb, long long rb) :
+                leftBound(lb),
+                rightBound(rb),
+                curSum(0),
+                lChild(nullptr),
+                rChild(nullptr) {
+            }
+        };
+
+        SegNode* root;
+
+
+        SegTree(long long  left, long long  right) {
+            root = build(left, right);
+        }
+
+        SegTree() {}
+
+        SegNode* build(long long  l, long long  r) {
+            SegNode* node = new SegNode(l, r);
+            if(l == r) {
+                return node;
+            }
+
+            long long  mid = (l + r) / 2;
+            node->lChild = build(l, mid);
+            node->rChild = build(mid + 1, r);
+            return node;
+        }
+
+        void insert(SegNode* root, long long  tarIdx, long long  val) {
+            root->curSum += val; 
+            if(root->leftBound == root->rightBound) {
+                return;
+            }
+            long long  mid = (root->leftBound + root->rightBound) >> 1;
+            // long long  mid = (root->leftBound + root->rightBound) / 2;
+            // there are identicial difference between them two:
+            // eg: when left == -1, right = 0;
+            //     case1 => (left + right) / 2 == 0
+            //     case1 => (left + right) >> 1 == -1
+            // cout << "d1 " << tarIdx << " mid: " << mid << " root:l/r: " << root->leftBound << "/" << root->rightBound << endl;
+            if(tarIdx <= mid) {
+            // cout << "d2" << endl;
+                if (nullptr == root->lChild) {
+                    // cout << "d2.5" << endl;
+                    root->lChild = new SegNode(root->leftBound, mid);
+                }
+                insert(root->lChild, tarIdx, val);
+            }
+            else{
+            // cout << "d3" << endl;
+                if (nullptr == root->rChild) {
+                    root->rChild = new SegNode(mid + 1, root->rightBound);
+                }
+                insert(root->rChild, tarIdx, val);
+            }
+        }
+
+        long long  getSum(SegNode* root, long long  left, long long  right) const {
+            if(nullptr == root) {
+                return 0;
+            }
+            // 当前节点位于目标区间外
+            if(left > root->rightBound || right < root->leftBound) {
+                return 0;
+            }
+            // 当前节点位于目标区间内
+            if(left <= root->leftBound && right >= root->rightBound) {
+                // cout << "left/right" << left << "/" << right << " => " << root->curSum << endl;
+                return root->curSum;
+            }
+            return getSum(root->lChild, left, right) + getSum(root->rChild, left, right);
+        }
+
+    };
+
+    int countRangeSum(vector<int>& nums, int lower, int upper) {
+        unordered_map<int, int> numToIdx;
+        set<long long> tmpNums;
+        vector<long long> prefixSum = {0};
+
+        for(int i = 0; i < nums.size(); ++i) {
+            prefixSum.emplace_back(nums[i] + prefixSum.back());
+        }
+
+        for(auto ps : prefixSum) {
+            tmpNums.insert(ps);
+            tmpNums.insert(ps - lower);
+            tmpNums.insert(ps - upper);
+        }
+        
+        int i = 1;
+        for(auto num : tmpNums) {
+            numToIdx[num] = i++;
+        }
+
+        // for a valid s(i, j) we shall find:
+        //     preSum[j] - ub <= preSum[i] <= preSum[j] - lb
+        // we just need to statistic those preSum[i] for each j
+        int n = tmpNums.size();
+        // BITree tree(n + 1);
+        long long ans = 0;
+        // for(int j = 0; j < prefixSum.size(); ++j) {
+        //     int leftBound = numToIdx[prefixSum[j] - upper];
+        //     int rightBound = numToIdx[prefixSum[j] - lower];
+        //     // cout << "lb, rb = " << leftBound << " " << rightBound << endl;
+        //     ans += (tree.query(rightBound) - tree.query(leftBound - 1));
+        //     // cout << "ans = " << ans << "preFixSumSize = " << prefixSum.size() << endl;
+        //     tree.update(numToIdx[prefixSum[j]], 1); // avoid 0 to produce dead loop
+        // }
+        
+        // try to use segnode tree to sovle the problem, this will exceed the time limitation
+        // SegTree tree(0, n + 1);
+        // for(int j = 0; j < prefixSum.size(); ++j) {
+        //     int left = numToIdx[prefixSum[j] - upper];
+        //     int right = numToIdx[prefixSum[j] - lower];
+        //     ans += tree.getSum(tree.root, left, right);
+        //     // cout << "lb, rb = " << left<< " " << right<< " ==> " << ans << endl;
+        //     tree.insert(tree.root, numToIdx[prefixSum[j]], 1);
+        //     // cout << "insert: " << numToIdx[prefixSum[j]]  << "curRoot: " << tree.root->curSum << endl;
+        // }
+
+        // we do not do the deserialization
+        long long minLeft = LLONG_MAX, maxRight = LLONG_MIN;
+        for(long long x : prefixSum) {
+            minLeft = min({minLeft, x, x - lower, x - upper});
+            maxRight = max({maxRight, x, x - lower, x - upper});
+        }
+        
+        // cout << "minL, maxR" << minLeft << " " << maxRight <<endl; 
+        SegTree tree;
+        tree.root = new SegTree::SegNode(minLeft, maxRight);
+        // reason why we insert the prefixSum of 0, because for the first ele:
+        // if it statisfy the interval, then it will be statisticed because the 0
+        for(long long x : prefixSum) {
+            ans += tree.getSum(tree.root, x - upper, x - lower);
+            // cout << "lb, rb = " << x - upper<< " " << x - lower << " ==> ans = " << ans << endl;
+            tree.insert(tree.root, x, 1);
+            // cout << "insert: " <<  x << "curRoot: " << tree.root->curSum << endl;
+        }
+
+        return ans;
+    }
+}
+```
