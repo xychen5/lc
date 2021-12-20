@@ -23,6 +23,7 @@
 | 二叉搜索树 | bst |
 | 二叉索引树(树状数组) | bit(binary indexed tree) |
 | 线段树 | segTree(segment Tree) |
+| 前缀树 | trie(prefix tree/digital tree) |
 
 ----------------------
 
@@ -74,6 +75,7 @@
 | 0124 | 二叉树中的最大路径和 | dp | [https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/) | - |
 | 0141 | 单向链表有回环 | ll, saveSpace | [https://leetcode-cn.com/problems/linked-list-cycle/](https://leetcode-cn.com/problems/linked-list-cycle/) | floyd判圈 |
 | 0142 | 单向链表有回环2 | ll, saveSpace | [https://leetcode-cn.com/problems/linked-list-cycle-ii/](https://leetcode-cn.com/problems/linked-list-cycle-ii) | floyd判圈 |
+| 0208 | 实现 Trie (前缀树) | trie | [https://leetcode-cn.com/problems/implement-trie-prefix-tree/](https://leetcode-cn.com/problems/implement-trie-prefix-tree/) | trie |
 | 0209 | 长度最小和大于k的子数组 | mw,prefixSum | [https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k/](https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k/) | 滑动窗口，前缀和 |
 | 0218 | 获取天际线 | heap | [https://leetcode-cn.com/problems/the-skyline-problem](https://leetcode-cn.com/problems/the-skyline-problem) | heap,找出当前窗口的最高值 |
 | 0233 | 数字1的个数 | perm/comb | [https://leetcode-cn.com/problems/number-of-digit-one/](https://leetcode-cn.com/problems/number-of-digit-one/) | - |
