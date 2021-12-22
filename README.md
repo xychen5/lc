@@ -85,7 +85,6 @@
 | 0315 | 计算右侧小于当前元素的个数 | bit | [https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/) | bit |
 | 0327 | 区间和的个数 | bit | [https://leetcode-cn.com/problems/count-of-range-sum/](https://leetcode-cn.com/problems/count-of-range-sum/) | bit |
 | 0328 | 奇偶链表 | ll, saveSpace | [https://leetcode-cn.com/problems/odd-even-linked-list/](https://leetcode-cn.com/problems/odd-even-linked-list/) | - |
-
 | 0336 | 回文对 | trie | [https://leetcode-cn.com/problems/palindrome-pairs/](https://leetcode-cn.com/problems/palindrome-pairs/) | 字典树 |
 | 0375 | 猜数字大小2的最低金额 | dp,minimax | [https://leetcode-cn.com/problems/guess-number-higher-or-lower-ii/](https://leetcode-cn.com/problems/guess-number-higher-or-lower-ii/) | 区间dp，极小极大算法 |
 | 0391 | 完美矩形 | - | [https://leetcode-cn.com/problems/perfect-rectangle/](https://leetcode-cn.com/problems/perfect-rectangle/) | trick |
