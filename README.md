@@ -89,6 +89,7 @@
 | 0391 | 完美矩形 | - | [https://leetcode-cn.com/problems/perfect-rectangle/](https://leetcode-cn.com/problems/perfect-rectangle/) | trick |
 | 0413 | 等差数列划分 | arr | [https://leetcode-cn.com/problems/arithmetic-slices/](https://leetcode-cn.com/problems/arithmetic-slices/) | - |
 | 0416 | 分割等和子集 | dp,arr | [https://leetcode-cn.com/problems/partition-equal-subset-sum](https://leetcode-cn.com/problems/partition-equal-subset-sum) | - |
+| 0440 | 字典序的第K小数字 | trie | [https://leetcode-cn.com/problems/k-th-smallest-in-lexicographical-order/](https://leetcode-cn.com/problems/k-th-smallest-in-lexicographical-order/) | trie |
 | 0445 | 两数相加 | ll | [https://leetcode-cn.com/problems/add-two-numbers-ii/submissions/](https://leetcode-cn.com/problems/add-two-numbers-ii/submissions/) |  |
 | 0466 | 等差数列划分 | dp,arr | [https://leetcode-cn.com/problems/arithmetic-slices-ii-subsequence/](https://leetcode-cn.com/problems/arithmetic-slices-ii-subsequence/) | - |
 | 0480 | 滑动窗口中位数 | mw,mset | [https://leetcode-cn.com/problems/sliding-window-median/](https://leetcode-cn.com/problems/sliding-window-median/) | 滑动窗口,multiset |
