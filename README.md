@@ -109,6 +109,7 @@
 | 0745 | 前缀和后缀搜索 | trie | [https://leetcode-cn.com/problems/prefix-and-suffix-search/](https://leetcode-cn.com/problems/prefix-and-suffix-search/) | 字典树 |
 | 0761 | 特殊的二进制序列 | recur | [https://leetcode-cn.com/problems/special-binary-string](https://leetcode-cn.com/problems/special-binary-string) | recur |
 | 0765 | 情侣交换最少 | us | [https://leetcode-cn.com/problems/couples-holding-hands/](https://leetcode-cn.com/problems/couples-holding-hands/) | 并查集 |
+| 0768 | 最多能完成排序的块 | monoStack | [https://leetcode-cn.com/problems/max-chunks-to-make-sorted-ii](https://leetcode-cn.com/problems/max-chunks-to-make-sorted-ii) | monoStack |
 | 0778 | 泳池上升水位游泳 | graph,us | [https://leetcode-cn.com/problems/swim-in-rising-water/](https://leetcode-cn.com/problems/swim-in-rising-water/) | 并查集，dfs，bfs |
 | 0785 | 是否为二分图 | graph,bfs,us,dfs,biPart | [https://leetcode-cn.com/problems/is-graph-bipartite/](https://leetcode-cn.com/problems/is-graph-bipartite/) | 二分图，并查集，电dfs，bfs |
 | 0862 | 和大于k的最短子数组长度 | monoQueue,prefixSum | [https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k/](https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k/) | 单调队列，前缀和 |
