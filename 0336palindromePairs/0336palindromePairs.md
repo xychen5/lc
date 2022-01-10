@@ -1,10 +1,11 @@
 ## 0336. 回文对
 
 ### 1 题目
-[
+[https://leetcode-cn.com/problems/palindrome-pairs/](https://leetcode-cn.com/problems/palindrome-pairs/)
 
 ### 2 解题思路
-- 1 参考官方解答：****
+- 1 参考官方解答：**https://leetcode-cn.com/problems/palindrome-pairs/solution/hui-wen-dui-by-leetcode-solution/**
+
 ```cpp
 class Solution {
 public:
