@@ -1,4 +1,4 @@
-## 1793 好子数组的最大分数 1793maximumScore
+## 1793 好子数组的最大分数 maximumScore
 
 ### 1 题目：
 [https://leetcode-cn.com/problems/maximum-score-of-a-good-subarray/](https://leetcode-cn.com/problems/maximum-score-of-a-good-subarray/)
