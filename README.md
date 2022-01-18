@@ -83,6 +83,7 @@
 | 0212 | 单词搜索 II | trie,backTrack | [https://leetcode-cn.com/problems/word-search-ii](https://leetcode-cn.com/problems/word-search-ii) | 字典树 |
 | 0218 | 获取天际线 | heap | [https://leetcode-cn.com/problems/the-skyline-problem](https://leetcode-cn.com/problems/the-skyline-problem) | heap,找出当前窗口的最高值 |
 | 0233 | 数字1的个数 | perm/comb | [https://leetcode-cn.com/problems/number-of-digit-one/](https://leetcode-cn.com/problems/number-of-digit-one/) | - |
+| 0304 | 二位区域和 | preSum | [https://leetcode-cn.com/problems/range-sum-query-2d-immutable/](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/) | preSum |
 | 0313 | 超级丑数 | heap | [https://leetcode-cn.com/problems/super-ugly-number/](https://leetcode-cn.com/problems/super-ugly-number/) | - |
 | 0315 | 计算右侧小于当前元素的个数 | bit | [https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/) | bit |
 | 0321 | 拼接最大数 | monoStack | [https://leetcode-cn.com/problems/longest-duplicate-substring/](https://leetcode-cn.com/problems/longest-duplicate-substring/) | 单调栈 |
