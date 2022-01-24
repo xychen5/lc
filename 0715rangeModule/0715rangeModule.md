@@ -1,19 +1,14 @@
-#include <iostream>
-#include <iostream>
-#include <iomanip>
-#include <vector>
-#include <algorithm>
-#include <limits.h>
-#include <numeric>
-#include <list>
-#include <queue>
-#include <unordered_set>
-#include <unordered_map>
-#include <map>
-#include <set>
-#include <string>
 
-using namespace std;
+## 0715 Range 模块 rangeModule
+
+### 1 题目：
+[https://leetcode-cn.com/problems/range-module/](https://leetcode-cn.com/problems/range-module/)
+
+### 2 解题思路：
+- 1 普通思路：使用map记录这些离散的区间
+  - 1.1 添加、删除： 遍历map，看map的每一个区间和当前区间的关系，这样处理最为合适
+  - 1.2 查询：使用upper_bound查询到第一个（左侧）比目标的left小的区间，然后看目标的left和right是否在map对应的区间内部
+```cpp
 class RangeModule {
 public:
     map<int, int, std::less<int>> intervals;
@@ -158,16 +153,4 @@ public:
  * bool param_2 = obj->queryRange(left,right);
  * obj->removeRange(left,right);
  */
-
-
-
-int main() {
-    // vector<int> nums = {1, 15, 5, 11};
-    // vector<int> nums = {1, 3};
-    // vector<int> nums = {1, 3};
-    vector<int> nums = {1, 2, 2, 3};
-    Solution sl;
-    // std::cout << sl.largestRectangleArea(nums) << std::endl;
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
-}
+```
