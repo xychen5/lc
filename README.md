@@ -124,6 +124,7 @@
 | 0874 | 模拟机器人行走 | sim | [https://leetcode-cn.com/problems/walking-robot-simulation/](https://leetcode-cn.com/problems/walking-robot-simulation/) | - |
 | 0895 | 最大频率栈 | map/hash_stack | [https://leetcode-cn.com/problems/maximum-frequency-stack/](https://leetcode-cn.com/problems/maximum-frequency-stack/) | 哈希存栈 |
 | 0904 | 水果成蓝(同0992) | mv,map | [https://leetcode-cn.com/problems/fruit-into-baskets/](https://leetcode-cn.com/problems/fruit-into-baskets/) | 滑动窗口,map |
+| 0912 | 三种基础排序 |  | [https://leetcode-cn.com/problems/sort-an-array/](https://leetcode-cn.com/problems/sort-an-array/) |  |
 | 0924 | 最小化病毒软件传播 | graph,us | [https://leetcode-cn.com/problems/minimize-malware-spread/](https://leetcode-cn.com/problems/minimize-malware-spread/) | 并查集 |
 | 0952 | 最大质因数联通分量大小 | graph,us | [https://leetcode-cn.com/problems/largest-component-size-by-common-factor](https://leetcode-cn.com/problems/largest-component-size-by-common-factor) | 并查集 |
 | 0928 | 最小化病毒软件传播2 | graph,us | [https://leetcode-cn.com/problems/minimize-malware-spread-ii/](https://leetcode-cn.com/problems/minimize-malware-spread-ii/) | 并查集 |
