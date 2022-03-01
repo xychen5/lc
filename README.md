@@ -94,6 +94,7 @@
 | 0327 | 区间和的个数 | bit | [https://leetcode-cn.com/problems/count-of-range-sum/](https://leetcode-cn.com/problems/count-of-range-sum/) | bit |
 | 0328 | 奇偶链表 | ll, saveSpace | [https://leetcode-cn.com/problems/odd-even-linked-list/](https://leetcode-cn.com/problems/odd-even-linked-list/) | - |
 | 0329 | 矩阵中的最长递增路径 | dfs/memo | [https://leetcode-cn.com/problems/longest-increasing-path-in-a-matrix/](https://leetcode-cn.com/problems/longest-increasing-path-in-a-matrix/) | dfs记忆化搜索 |
+| 0332 | 找欧拉路 | dfs | [https://leetcode-cn.com/problems/reconstruct-itinerary/](https://leetcode-cn.com/problems/reconstruct-itinerary/) | hierholzer算法 |
 | 0336 | 回文对 | trie | [https://leetcode-cn.com/problems/palindrome-pairs/](https://leetcode-cn.com/problems/palindrome-pairs/) | 字典树 |
 | 0363 | 最大子区域和 | set | [https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k/](https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k/) | 有序集合 |
 | 0375 | 猜数字大小2的最低金额 | dp,minimax | [https://leetcode-cn.com/problems/guess-number-higher-or-lower-ii/](https://leetcode-cn.com/problems/guess-number-higher-or-lower-ii/) | 区间dp，极小极大算法 |
