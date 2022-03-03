@@ -55,6 +55,7 @@
 ## 2 题解
 | 题号 | 题名 | 类型 | 链接 | 使用算法 |
 | - | - | - | - | - |
+| 0000_interview_subAddBinTree | 加减二叉树  | bst | [https://www.nowcoder.com/questionTerminal/39953c879b79412b85fbca2ffdeb0a4c?f=discussion](https://www.nowcoder.com/questionTerminal/39953c879b79412b85fbca2ffdeb0a4c?f=discussion) | 数学 |
 | 0000_interview_0409BSTSequence | 面试题 04.09. 二叉搜索树序列 | bst,recur | [https://leetcode-cn.com/problems/bst-sequences-lcci/](https://leetcode-cn.com/problems/bst-sequences-lcci/) | bst,recur |
 | 0000_interview_1712trapWater | 0042 接雨水 | monoStack | [https://leetcode-cn.com/problems/volume-of-histogram-lcci/](https://leetcode-cn.com/problems/volume-of-histogram-lcci/) | 单调栈 |
 | 0010 | 正则表达式匹配  | recur | [https://leetcode-cn.com/problems/regular-expression-matching](https://leetcode-cn.com/problems/regular-expression-matching) | recur |

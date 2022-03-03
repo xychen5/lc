@@ -9,7 +9,7 @@
     - index  ->  1 2 3 4 5 6 7 8 9
     - value  ->  0 1 1 0 2 1 0 0 0
   - 1.2 那么上述过程中，比如对于5，其贡献的逆序数对为5之前所有数字出现次数的和，也就是value数组中2之前的前缀和！
-- 2 那么如何快速获得前缀和呢？考虑使用BST来获取，参考:[https://xychen5.github.io/2021/12/15/dataStructure-BinaryIndexedTree/](https://xychen5.github.io/2021/12/15/dataStructure-BinaryIndexedTree/)
+- 2 那么如何快速获得前缀和呢？考虑使用BIT来获取，参考:[https://xychen5.github.io/2021/12/15/dataStructure-BinaryIndexedTree/](https://xychen5.github.io/2021/12/15/dataStructure-BinaryIndexedTree/)
   - 2.1 整体思路如下：
     - a 使用数字在数组中的排名来代替数字（这不会对逆序数对的个数产生影响）
     - b 对数组nums中的元素nums[i]从右到左构建BITree（i 从 n-1 到 0），注意，BITree所对应的前缀和是数组里数字出现次数的和
