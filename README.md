@@ -95,7 +95,7 @@
 | 0327 | 区间和的个数 | bit | [https://leetcode-cn.com/problems/count-of-range-sum/](https://leetcode-cn.com/problems/count-of-range-sum/) | bit |
 | 0328 | 奇偶链表 | ll, saveSpace | [https://leetcode-cn.com/problems/odd-even-linked-list/](https://leetcode-cn.com/problems/odd-even-linked-list/) | - |
 | 0329 | 矩阵中的最长递增路径 | dfs/memo | [https://leetcode-cn.com/problems/longest-increasing-path-in-a-matrix/](https://leetcode-cn.com/problems/longest-increasing-path-in-a-matrix/) | dfs记忆化搜索 |
-| 0332 | 找欧拉路 | dfs | [https://leetcode-cn.com/problems/reconstruct-itinerary/](https://leetcode-cn.com/problems/reconstruct-itinerary/) | hierholzer算法 |
+| 0332 | 重新安排行程 | dfs | [https://leetcode-cn.com/problems/reconstruct-itinerary/](https://leetcode-cn.com/problems/reconstruct-itinerary/) | hierholzer算法, 欧拉路 |
 | 0336 | 回文对 | trie | [https://leetcode-cn.com/problems/palindrome-pairs/](https://leetcode-cn.com/problems/palindrome-pairs/) | 字典树 |
 | 0363 | 最大子区域和 | set | [https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k/](https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k/) | 有序集合 |
 | 0375 | 猜数字大小2的最低金额 | dp,minimax | [https://leetcode-cn.com/problems/guess-number-higher-or-lower-ii/](https://leetcode-cn.com/problems/guess-number-higher-or-lower-ii/) | 区间dp，极小极大算法 |
@@ -120,7 +120,8 @@
 | 0699 | 掉落的方块 | set | [https://leetcode-cn.com/problems/falling-squares/](https://leetcode-cn.com/problems/falling-squares/) | 有序集合(坐标压缩) |
 | 0715 |  Range 模块 | map | [https://leetcode-cn.com/problems/range-module/](https://leetcode-cn.com/problems/range-module/) | map |
 | 0745 | 前缀和后缀搜索 | trie | [https://leetcode-cn.com/problems/prefix-and-suffix-search/](https://leetcode-cn.com/problems/prefix-and-suffix-search/) | 字典树 |
-| 0761 | 特殊的二进制序列 | recur | [https://leetcode-cn.com/problems/special-binary-string](https://leetcode-cn.com/problems/special-binary-string) | recur |
+| 0753 | 破解保险箱(变形欧拉路) | dfs | [https://leetcode-cn.com/problems/freedom-trail/](https://leetcode-cn.com/problems/freedom-trail/) | hierholzer算法/欧拉路 |
+|0761 | 特殊的二进制序列 | recur | [https://leetcode-cn.com/problems/special-binary-string](https://leetcode-cn.com/problems/special-binary-string) | recur |
 | 0765 | 情侣交换最少 | us | [https://leetcode-cn.com/problems/couples-holding-hands/](https://leetcode-cn.com/problems/couples-holding-hands/) | 并查集 |
 | 0768 | 最多能完成排序的块 | monoStack | [https://leetcode-cn.com/problems/max-chunks-to-make-sorted-ii](https://leetcode-cn.com/problems/max-chunks-to-make-sorted-ii) | monoStack |
 | 0778 | 泳池上升水位游泳 | graph,us | [https://leetcode-cn.com/problems/swim-in-rising-water/](https://leetcode-cn.com/problems/swim-in-rising-water/) | 并查集，dfs，bfs |
