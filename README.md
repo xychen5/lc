@@ -89,6 +89,7 @@
 | 0212 | 单词搜索 II | trie,backTrack | [https://leetcode-cn.com/problems/word-search-ii](https://leetcode-cn.com/problems/word-search-ii) | 字典树 |
 | 0218 | 获取天际线 | heap | [https://leetcode-cn.com/problems/the-skyline-problem](https://leetcode-cn.com/problems/the-skyline-problem) | heap,找出当前窗口的最高值 |
 | 0233 | 数字1的个数 | perm/comb | [https://leetcode-cn.com/problems/number-of-digit-one/](https://leetcode-cn.com/problems/number-of-digit-one/) | - |
+| 0295 | 数据流中位数 | min/max heap | [https://leetcode-cn.com/problems/find-median-from-data-stream/](https://leetcode-cn.com/problems/find-median-from-data-stream/) | 双堆对准中间位置 |
 | 0297 | 二叉树序列化反序列化 | binTree | [https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/) | 二叉树序列化 |
 | 0304 | 二位区域和 | preSum | [https://leetcode-cn.com/problems/range-sum-query-2d-immutable/](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/) | preSum |
 | 0313 | 超级丑数 | heap | [https://leetcode-cn.com/problems/super-ugly-number/](https://leetcode-cn.com/problems/super-ugly-number/) | - |
