@@ -56,9 +56,10 @@
 ## 2 题解
 | 题号 | 题名 | 类型 | 链接 | 使用算法 |
 | - | - | - | - | - |
-| 0000_interview_subAddBinTree | 加减二叉树  | bst | [https://www.nowcoder.com/questionTerminal/39953c879b79412b85fbca2ffdeb0a4c?f=discussion](https://www.nowcoder.com/questionTerminal/39953c879b79412b85fbca2ffdeb0a4c?f=discussion) | 数学 |
 | 0000_interview_0409BSTSequence | 面试题 04.09. 二叉搜索树序列 | bst,recur | [https://leetcode-cn.com/problems/bst-sequences-lcci/](https://leetcode-cn.com/problems/bst-sequences-lcci/) | bst,recur |
 | 0000_interview_1712trapWater | 0042 接雨水 | monoStack | [https://leetcode-cn.com/problems/volume-of-histogram-lcci/](https://leetcode-cn.com/problems/volume-of-histogram-lcci/) | 单调栈 |
+| 0000_interview_maxGrade | 小易最好成绩 | dp | [https://www.nowcoder.com/questionTerminal/b83f4f4950d04154a6dc053b6d419782](https://www.nowcoder.com/questionTerminal/b83f4f4950d04154a6dc053b6d419782) | - |
+| 0000_interview_subAddBinTree | 加减二叉树  | bst | [https://www.nowcoder.com/questionTerminal/39953c879b79412b85fbca2ffdeb0a4c?f=discussion](https://www.nowcoder.com/questionTerminal/39953c879b79412b85fbca2ffdeb0a4c?f=discussion) | 数学 |
 | 0010 | 正则表达式匹配  | recur | [https://leetcode-cn.com/problems/regular-expression-matching](https://leetcode-cn.com/problems/regular-expression-matching) | recur |
 | 0025 | k个一组翻转链表 | recur,ll | [https://leetcode-cn.com/problems/reverse-nodes-in-k-group/](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | recur,ll |
 | 0032 | 最长有效括号 | dp,arr,stack | [https://leetcode-cn.com/problems/longest-valid-parentheses/](https://leetcode-cn.com/problems/longest-valid-parentheses/) | - |
@@ -121,6 +122,7 @@
 | 0514 | 自由之路 | dfs,memo | [https://leetcode-cn.com/problems/freedom-trail/](https://leetcode-cn.com/problems/freedom-trail/) | 记忆化搜索 |
 | 0516 | 最长回文子序列 | dp | [https://leetcode-cn.com/problems/longest-palindromic-subsequence/](https://leetcode-cn.com/problems/longest-palindromic-subsequence/) | - |
 | 0526 | 优美排列 | bt,arr | [https://leetcode-cn.com/problems/beautiful-arrangement](https://leetcode-cn.com/problems/beautiful-arrangement) | - |
+| 0546 | 移除盒子 | dp | [https://leetcode-cn.com/problems/remove-boxes/](https://leetcode-cn.com/problems/remove-boxes/) | - |
 | 0547 | 找无向图连通子图个数 | dfs,scc | [https://leetcode-cn.com/problems/number-of-provinces/](https://leetcode-cn.com/problems/number-of-provinces/) | 强连图子图，dfs |
 | 0560 | 子串和为k | arr,hash | [https://leetcode-cn.com/problems/subarray-sum-equals-k/](https://leetcode-cn.com/problems/subarray-sum-equals-k/) | prefixSum |
 | 0611 | 有效三角个数 | dp,arr | [https://leetcode-cn.com/problems/valid-triangle-number/](https://leetcode-cn.com/problems/valid-triangle-number/) | - |

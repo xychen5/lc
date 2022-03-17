@@ -1,0 +1,103 @@
+## 0546rmBoxes 移除盒子
+
+### 1 题目
+[https://leetcode-cn.com/problems/remove-boxes/](https://leetcode-cn.com/problems/remove-boxes/)
+
+### 2 解题思路
+- 1 使用回溯暴力搜索，每一层选择一个连续的字串，然后去下一层，使用记忆化搜，但是任然无法过
+- 2 动态规划：参考官方解答，3维dp第一次见
+
+
+```cpp
+class Solution {
+public:
+    int maxPoint = INT_MIN;
+    unordered_map<string, int> memo;
+    int removeBoxes(vector<int>& boxes) {
+        // dp
+        vector<vector<vector<int>>> dp(100, vector<vector<int>>(100, vector<int>(100, 0)));
+        int n = boxes.size();
+        return calRes(dp, boxes, 0, n - 1, 0);
+
+        // memo search, 20/65, not fast
+        // return backTrack(boxes, 0);
+    }
+
+    int calRes(vector<vector<vector<int>>>& dp, vector<int>& boxes, int st, int ed, int k) {
+        if(st > ed) {
+            return 0;
+        }
+        
+        if(dp[st][ed][k] == 0) {
+            dp[st][ed][k] = max(dp[st][ed][k], calRes(dp, boxes, st, ed - 1, 0) + (k + 1) * (k + 1));
+            for(int i = st; i <= ed-1; ++i) {
+                if(boxes[i] == boxes[ed]) {
+                    dp[st][ed][k] = max(
+                        dp[st][ed][k], 
+                        calRes(dp, boxes, st, i, k + 1) + calRes(dp, boxes, i + 1, ed - 1, 0)
+                    );
+                }
+            }
+        }
+        
+        return dp[st][ed][k];
+    }
+
+    // int backTrack(vector<int>& boxes, int curPoint) {
+    //     if(boxes.size() == 0) {
+    //         return 0;
+    //     }
+        
+    //     string boxStr = myArrayToString(boxes);
+    //     if(memo.find(boxStr) != memo.end()) {
+    //         return memo[boxStr];
+    //     }
+
+    //     // st -> ed
+    //     map<int, int> seg; 
+    //     findContinousSegment(seg, boxes);
+    //     // printMap(seg);
+    //     int curLevelMax = INT_MIN;
+
+    //     for(auto& p : seg) {
+    //         vector<int> tmp = boxes;
+    //         tmp.erase(tmp.begin() + p.first, tmp.begin() + p.second);
+
+    //         int curGain = (p.second - p.first) * (p.second - p.first);
+    //         curLevelMax = max(backTrack(tmp, curPoint) + curGain, curLevelMax);
+    //     }
+    //     memo[boxStr] = curLevelMax;
+    //     return curLevelMax;
+    // }
+
+    // void findContinousSegment(map<int, int>& seg,  vector<int>& boxes) {
+    //     int st = 0;
+    //     int cur = st;
+    //     while(cur < boxes.size() && st < boxes.size()) {
+    //         if(boxes[cur] == boxes[st]) {
+    //             ++cur;
+    //         } else {
+    //             seg[st] = cur;
+    //             st = cur;
+    //             ++cur;
+    //         }
+    //     }
+    //     seg[st] = boxes.size();
+    // }
+
+    // string myArrayToString(vector<int>& arr) {
+    //     string tmp = "";
+    //     for(auto& i : arr) {
+    //         tmp += to_string(i);
+    //         tmp.push_back(',');
+    //     }
+    //     return tmp;
+    // }
+
+    // void printMap(map<int, int>& seg) {
+    //     for(auto p : seg) {
+    //         cout << p.first << " -> " << p.second << endl; 
+    //     }
+    // }
+};
+```
