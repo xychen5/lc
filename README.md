@@ -126,6 +126,7 @@
 | 0547 | 找无向图连通子图个数 | dfs,scc | [https://leetcode-cn.com/problems/number-of-provinces/](https://leetcode-cn.com/problems/number-of-provinces/) | 强连图子图，dfs |
 | 0552 | 学生出勤记录 | dp | [https://leetcode-cn.com/problems/student-attendance-record-ii/](https://leetcode-cn.com/problems/student-attendance-record-ii/) | - |
 | 0560 | 子串和为k | arr,hash | [https://leetcode-cn.com/problems/subarray-sum-equals-k/](https://leetcode-cn.com/problems/subarray-sum-equals-k/) | prefixSum |
+| 0600 | 不含连续1的非负整数 | dp | [https://leetcode-cn.com/problems/non-negative-integers-without-consecutive-ones/](https://leetcode-cn.com/problems/non-negative-integers-without-consecutive-ones/) | - |
 | 0611 | 有效三角个数 | dp,arr | [https://leetcode-cn.com/problems/valid-triangle-number/](https://leetcode-cn.com/problems/valid-triangle-number/) | - |
 | 0684 | 冗余链接 | tree,us,graph | [https://leetcode-cn.com/problems/redundant-connection](https://leetcode-cn.com/problems/redundant-connection) | 并查集 |
 | 0685 | 冗余链接2 | tree,us,graph | [https://leetcode-cn.com/problems/redundant-connection-ii](https://leetcode-cn.com/problems/redundant-connection-ii) | 并查集 |
