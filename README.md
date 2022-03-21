@@ -81,6 +81,7 @@
 | 0109 | 链表转BST | ll,bst | [https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/) | 递归，分治,recur,bst |
 | 0123 | 买卖股票的最佳时机 | dp | [https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/) | - |
 | 0124 | 二叉树中的最大路径和 | dp | [https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/) | - |
+| 0127 | 单词接龙 | bfs | [https://leetcode-cn.com/problems/word-ladder/](https://leetcode-cn.com/problems/word-ladder/) | - |
 | 0140 | 单词拆分 II | trie,backTrack | [https://leetcode-cn.com/problems/word-break-ii/](https://leetcode-cn.com/problems/word-break-ii/) | 字典树,回溯 |
 | 0141 | 单向链表有回环 | ll, saveSpace | [https://leetcode-cn.com/problems/linked-list-cycle/](https://leetcode-cn.com/problems/linked-list-cycle/) | floyd判圈 |
 | 0142 | 单向链表有回环2 | ll, saveSpace | [https://leetcode-cn.com/problems/linked-list-cycle-ii/](https://leetcode-cn.com/problems/linked-list-cycle-ii) | floyd判圈 |
@@ -115,8 +116,7 @@
 | 0446 | 等差数列划分 | dp,arr | [https://leetcode-cn.com/problems/arithmetic-slices-ii-subsequence/](https://leetcode-cn.com/problems/arithmetic-slices-ii-subsequence/) | - |
 | 0466 | 统计重复个数 | trick | [https://leetcode-cn.com/problems/count-the-repetitions/](https://leetcode-cn.com/problems/count-the-repetitions/) | - |
 | 0488 | 祖玛游戏 | dfs/memo | [https://leetcode-cn.com/problems/zuma-game/](https://leetcode-cn.com/problems/zuma-game/) | 记忆化搜索 |
-| 0472 | 连接词 | trie | [https://leetcode-cn.com/problems/concatenated-words/](https://leetcode-cn.com/problems/concatenated-words/)
- | 字典树 |
+| 0472 | 连接词 | trie | [https://leetcode-cn.com/problems/concatenated-words/](https://leetcode-cn.com/problems/concatenated-words/) | 字典树 |
 | 0480 | 滑动窗口中位数 | mw,mset | [https://leetcode-cn.com/problems/sliding-window-median/](https://leetcode-cn.com/problems/sliding-window-median/) | 滑动窗口,multiset |
 | 0493 | 翻转对 | bit/segTree | [https://leetcode-cn.com/problems/reverse-pairs/](https://leetcode-cn.com/problems/reverse-pairs/) | bit/segTree |
 | 0514 | 自由之路 | dfs,memo | [https://leetcode-cn.com/problems/freedom-trail/](https://leetcode-cn.com/problems/freedom-trail/) | 记忆化搜索 |
