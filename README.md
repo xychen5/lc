@@ -105,6 +105,7 @@
 | 0328 | 奇偶链表 | ll, saveSpace | [https://leetcode-cn.com/problems/odd-even-linked-list/](https://leetcode-cn.com/problems/odd-even-linked-list/) | - |
 | 0329 | 矩阵中的最长递增路径 | dfs/memo | [https://leetcode-cn.com/problems/longest-increasing-path-in-a-matrix/](https://leetcode-cn.com/problems/longest-increasing-path-in-a-matrix/) | dfs记忆化搜索 |
 | 0332 | 重新安排行程 | dfs | [https://leetcode-cn.com/problems/reconstruct-itinerary/](https://leetcode-cn.com/problems/reconstruct-itinerary/) | hierholzer算法, 欧拉路 |
+| 0335 | 相交路径 | math | [https://leetcode-cn.com/problems/self-crossing/](https://leetcode-cn.com/problems/self-crossing/) | - |
 | 0336 | 回文对 | trie | [https://leetcode-cn.com/problems/palindrome-pairs/](https://leetcode-cn.com/problems/palindrome-pairs/) | 字典树 |
 | 0354 | 套娃信件(2d 最长递增序列) | dp | [https://leetcode-cn.com/problems/russian-doll-envelopes/](https://leetcode-cn.com/problems/russian-doll-envelopes/) | - |
 | 0363 | 最大子区域和 | set | [https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k/](https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k/) | 有序集合 |
