@@ -110,6 +110,7 @@
 | 0354 | 套娃信件(2d 最长递增序列) | dp | [https://leetcode-cn.com/problems/russian-doll-envelopes/](https://leetcode-cn.com/problems/russian-doll-envelopes/) | - |
 | 0363 | 最大子区域和 | set | [https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k/](https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k/) | 有序集合 |
 | 0375 | 猜数字大小2的最低金额 | dp,minimax | [https://leetcode-cn.com/problems/guess-number-higher-or-lower-ii/](https://leetcode-cn.com/problems/guess-number-higher-or-lower-ii/) | 区间dp，极小极大算法 |
+| 0381 | o1删除添加随机获取 | math | [https://leetcode-cn.com/problems/insert-delete-getrandom-o1-duplicates-allowed/](https://leetcode-cn.com/problems/insert-delete-getrandom-o1-duplicates-allowed/) | - |
 | 0391 | 完美矩形 | - | [https://leetcode-cn.com/problems/perfect-rectangle/](https://leetcode-cn.com/problems/perfect-rectangle/) | trick |
 | 0403 | 青蛙过河 | dp | [https://leetcode-cn.com/problems/frog-jump/](https://leetcode-cn.com/problems/frog-jump/) |  |
 | 0410 | 分割出最小的子数组最大值 | dp,bs | [https://leetcode-cn.com/problems/split-array-largest-sum/](https://leetcode-cn.com/problems/split-array-largest-sum/) |  |
