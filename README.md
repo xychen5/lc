@@ -98,6 +98,7 @@
 | 0297 | 二叉树序列化反序列化 | binTree | [https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/) | 二叉树序列化 |
 | 0300 | 最长递增序列 | dp,lis | [https://leetcode-cn.com/problems/longest-increasing-subsequence/](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | - |
 | 0304 | 二位区域和 | preSum | [https://leetcode-cn.com/problems/range-sum-query-2d-immutable/](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/) | preSum |
+| 0310 | 最小高度树 | bfs | [https://leetcode-cn.com/problems/minimum-height-trees/](https://leetcode-cn.com/problems/minimum-height-trees/) | - |
 | 0313 | 超级丑数 | heap | [https://leetcode-cn.com/problems/super-ugly-number/](https://leetcode-cn.com/problems/super-ugly-number/) | - |
 | 0315 | 计算右侧小于当前元素的个数 | bit | [https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/) | bit |
 | 0321 | 拼接最大数 | monoStack | [https://leetcode-cn.com/problems/longest-duplicate-substring/](https://leetcode-cn.com/problems/longest-duplicate-substring/) | 单调栈 |
