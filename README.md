@@ -88,6 +88,7 @@
 | 0124 | 二叉树中的最大路径和 | dp | [https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/) | - |
 | 0127 | 单词接龙 | bfs | [https://leetcode-cn.com/problems/word-ladder/](https://leetcode-cn.com/problems/word-ladder/) | - |
 | 0135 | 分发糖果 | greedy | [https://leetcode-cn.com/problems/candy/](https://leetcode-cn.com/problems/candy/) | - |
+| 0137 | 只出现一次的数字 II | hash | [https://leetcode-cn.com/problems/single-number-ii/](https://leetcode-cn.com/problems/single-number-ii/) | - |
 | 0140 | 单词拆分 II | trie,backTrack | [https://leetcode-cn.com/problems/word-break-ii/](https://leetcode-cn.com/problems/word-break-ii/) | 字典树,回溯 |
 | 0141 | 单向链表有回环 | ll, saveSpace | [https://leetcode-cn.com/problems/linked-list-cycle/](https://leetcode-cn.com/problems/linked-list-cycle/) | floyd判圈 |
 | 0142 | 单向链表有回环2 | ll, saveSpace | [https://leetcode-cn.com/problems/linked-list-cycle-ii/](https://leetcode-cn.com/problems/linked-list-cycle-ii) | floyd判圈 |
