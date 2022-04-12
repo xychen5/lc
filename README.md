@@ -53,6 +53,7 @@
 | 扫描线 | scanLine |
 | 记忆化搜索 | memo |
 | 排序 | sort |
+| kmp字符串匹配 | kmp算法 |
 
 ## 2 题解
 | 题号 | 题名 | 类型 | 链接 | 使用算法 |
@@ -98,6 +99,7 @@
 | 0208 | 实现 Trie (前缀树) | trie | [https://leetcode-cn.com/problems/implement-trie-prefix-tree/](https://leetcode-cn.com/problems/implement-trie-prefix-tree/) | trie |
 | 0209 | 长度最小和大于k的子数组 | mw,prefixSum | [https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k/](https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k/) | 滑动窗口，前缀和 |
 | 0212 | 单词搜索 II | trie,backTrack | [https://leetcode-cn.com/problems/word-search-ii](https://leetcode-cn.com/problems/word-search-ii) | 字典树 |
+| 0214 | 最短回文串 | kmp | [https://leetcode-cn.com/problems/shortest-palindrome/](https://leetcode-cn.com/problems/shortest-palindrome/) | kmp算法 |
 | 0218 | 获取天际线 | heap | [https://leetcode-cn.com/problems/the-skyline-problem](https://leetcode-cn.com/problems/the-skyline-problem) | heap,找出当前窗口的最高值 |
 | 0233 | 数字1的个数 | perm/comb | [https://leetcode-cn.com/problems/number-of-digit-one/](https://leetcode-cn.com/problems/number-of-digit-one/) | - |
 | 0295 | 数据流中位数 | min/max heap | [https://leetcode-cn.com/problems/find-median-from-data-stream/](https://leetcode-cn.com/problems/find-median-from-data-stream/) | 双堆对准中间位置 |
