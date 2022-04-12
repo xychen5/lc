@@ -129,6 +129,7 @@
 | 0440 | 字典序的第K小数字 | trie | [https://leetcode-cn.com/problems/k-th-smallest-in-lexicographical-order/](https://leetcode-cn.com/problems/k-th-smallest-in-lexicographical-order/) | trie |
 | 0445 | 两数相加 | ll | [https://leetcode-cn.com/problems/add-two-numbers-ii/submissions/](https://leetcode-cn.com/problems/add-two-numbers-ii/submissions/) |  |
 | 0446 | 等差数列划分 | dp,arr | [https://leetcode-cn.com/problems/arithmetic-slices-ii-subsequence/](https://leetcode-cn.com/problems/arithmetic-slices-ii-subsequence/) | - |
+| 0459 | 重复的子字符串 | kmp | [https://leetcode-cn.com/problems/repeated-substring-pattern/](https://leetcode-cn.com/problems/repeated-substring-pattern/) | - |
 | 0466 | 统计重复个数 | trick | [https://leetcode-cn.com/problems/count-the-repetitions/](https://leetcode-cn.com/problems/count-the-repetitions/) | - |
 | 0479 | 最大回文数乘积 | reverseThink | [https://leetcode-cn.com/problems/largest-palindrome-product/](https://leetcode-cn.com/problems/largest-palindrome-product/) | - |
 | 0488 | 祖玛游戏 | dfs/memo | [https://leetcode-cn.com/problems/zuma-game/](https://leetcode-cn.com/problems/zuma-game/) | 记忆化搜索 |
