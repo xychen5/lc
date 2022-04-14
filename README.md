@@ -105,6 +105,7 @@
 | 0295 | 数据流中位数 | min/max heap | [https://leetcode-cn.com/problems/find-median-from-data-stream/](https://leetcode-cn.com/problems/find-median-from-data-stream/) | 双堆对准中间位置 |
 | 0297 | 二叉树序列化反序列化 | binTree | [https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/) | 二叉树序列化 |
 | 0300 | 最长递增序列 | dp,lis | [https://leetcode-cn.com/problems/longest-increasing-subsequence/](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | - |
+| 0301 | 最少移除括号 | backTrack | [https://leetcode-cn.com/problems/remove-invalid-parentheses/submissions/](https://leetcode-cn.com/problems/remove-invalid-parentheses/submissions/) | - |
 | 0304 | 二位区域和 | preSum | [https://leetcode-cn.com/problems/range-sum-query-2d-immutable/](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/) | preSum |
 | 0310 | 最小高度树 | bfs | [https://leetcode-cn.com/problems/minimum-height-trees/](https://leetcode-cn.com/problems/minimum-height-trees/) | - |
 | 0313 | 超级丑数 | heap | [https://leetcode-cn.com/problems/super-ugly-number/](https://leetcode-cn.com/problems/super-ugly-number/) | - |
