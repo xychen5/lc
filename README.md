@@ -126,6 +126,7 @@
 | 0410 | 分割出最小的子数组最大值 | dp,bs | [https://leetcode-cn.com/problems/split-array-largest-sum/](https://leetcode-cn.com/problems/split-array-largest-sum/) |  |
 | 0413 | 等差数列划分 | arr | [https://leetcode-cn.com/problems/arithmetic-slices/](https://leetcode-cn.com/problems/arithmetic-slices/) | - |
 | 0416 | 分割等和子集 | dp,arr | [https://leetcode-cn.com/problems/partition-equal-subset-sum](https://leetcode-cn.com/problems/partition-equal-subset-sum) | - |
+| 0420 | 强密码校验器 | math | [https://leetcode-cn.com/problems/strong-password-checker/submissions/](https://leetcode-cn.com/problems/strong-password-checker/submissions/) | - |
 | 0429 | n叉树层序遍历 | bfs | [https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/submissions/](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/submissions/) | - |
 | 0440 | 字典序的第K小数字 | trie | [https://leetcode-cn.com/problems/k-th-smallest-in-lexicographical-order/](https://leetcode-cn.com/problems/k-th-smallest-in-lexicographical-order/) | trie |
 | 0445 | 两数相加 | ll | [https://leetcode-cn.com/problems/add-two-numbers-ii/submissions/](https://leetcode-cn.com/problems/add-two-numbers-ii/submissions/) |  |
