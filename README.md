@@ -164,6 +164,7 @@
 | 0778 | 泳池上升水位游泳 | graph,us | [https://leetcode-cn.com/problems/swim-in-rising-water/](https://leetcode-cn.com/problems/swim-in-rising-water/) | 并查集，dfs，bfs |
 | 0780 | 到达终点 | math,reverseThink | [https://leetcode-cn.com/problems/reaching-points/](https://leetcode-cn.com/problems/reaching-points/) | - |
 | 0785 | 是否为二分图 | graph,bfs,us,dfs,biPart | [https://leetcode-cn.com/problems/is-graph-bipartite/](https://leetcode-cn.com/problems/is-graph-bipartite/) | 二分图，并查集，电dfs，bfs |
+| 0815 | 最少换乘数 | bfs | [https://leetcode-cn.com/problems/bus-routes/](https://leetcode-cn.com/problems/bus-routes/) | - |
 | 0850 | 矩形面积2 | scanLine | [https://leetcode-cn.com/problems/rectangle-area-ii/solution](https://leetcode-cn.com/problems/rectangle-area-ii/solution) | 扫描线 |
 | 0862 | 和大于k的最短子数组长度 | monoQueue,prefixSum | [https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k/](https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k/) | 单调队列，前缀和 |
 | 0874 | 模拟机器人行走 | sim | [https://leetcode-cn.com/problems/walking-robot-simulation/](https://leetcode-cn.com/problems/walking-robot-simulation/) | - |
