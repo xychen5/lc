@@ -88,6 +88,7 @@
 | 0098 | 验证BST | bst | [https://leetcode-cn.com/problems/validate-binary-search-tree/](https://leetcode-cn.com/problems/validate-binary-search-tree/) | recur,bst |
 | 0108 | 有序数组转BST | bst | [https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/) | recur,bst |
 | 0109 | 链表转BST | ll,bst | [https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/) | 递归，分治,recur,bst |
+| 0115 | 目标子序列不同的个数 | dp | [https://leetcode-cn.com/problems/distinct-subsequences/](https://leetcode-cn.com/problems/distinct-subsequences/) | - |
 | 0123 | 买卖股票的最佳时机 | dp | [https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/) | - |
 | 0124 | 二叉树中的最大路径和 | dp | [https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/) | - |
 | 0127 | 单词接龙 | bfs | [https://leetcode-cn.com/problems/word-ladder/](https://leetcode-cn.com/problems/word-ladder/) | - |
