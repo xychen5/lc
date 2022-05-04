@@ -154,8 +154,9 @@
 | 0564 | 最近最小回文数 | math | [https://leetcode-cn.com/problems/find-the-closest-palindrome/](https://leetcode-cn.com/problems/find-the-closest-palindrome/) | - |
 | 0600 | 不含连续1的非负整数 | dp | [https://leetcode-cn.com/problems/non-negative-integers-without-consecutive-ones/](https://leetcode-cn.com/problems/non-negative-integers-without-consecutive-ones/) | - |
 | 0611 | 有效三角个数 | dp,arr | [https://leetcode-cn.com/problems/valid-triangle-number/](https://leetcode-cn.com/problems/valid-triangle-number/) | - |
-| 0629 | k个逆序数对的方案数 | dp | [https://leetcode-cn.com/problems/k-inverse-pairs-array/](https://leetcode-cn.com/problems/k-inverse-pairs-array/) | - |
+| 0629 | k个逆序数对的方案数 | dp | [https://leetcode-cn.com/problems/k-inverse-pairs-array/](https://leetcode-cn.com/problems/k-inverse-pairs-array/) | 区间dp |
 | 0632 | 最小区间 | heap,greedy | [https://leetcode-cn.com/problems/smallest-range-covering-elements-from-k-lists/](https://leetcode-cn.com/problems/smallest-range-covering-elements-from-k-lists/) | - |
+| 0664 | 奇怪打印机 | dp | [https://leetcode-cn.com/problems/strange-printer](https://leetcode-cn.com/problems/strange-printer) | 区间dp |
 | 0684 | 冗余链接 | tree,us,graph | [https://leetcode-cn.com/problems/redundant-connection](https://leetcode-cn.com/problems/redundant-connection) | 并查集 |
 | 0685 | 冗余链接2 | tree,us,graph | [https://leetcode-cn.com/problems/redundant-connection-ii](https://leetcode-cn.com/problems/redundant-connection-ii) | 并查集 |
 | 0699 | 掉落的方块 | set | [https://leetcode-cn.com/problems/falling-squares/](https://leetcode-cn.com/problems/falling-squares/) | 有序集合(坐标压缩) |
