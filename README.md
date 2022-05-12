@@ -191,6 +191,7 @@
 | 0987 | 垂序遍历 | dfs, hash | [https://leetcode-cn.com/problems/vertical-order-traversal-of-a-binary-tree/](https://leetcode-cn.com/problems/vertical-order-traversal-of-a-binary-tree/) | - |
 | 0992 | 不同元素不大于k个的子数组个数 | mw | [https://leetcode-cn.com/problems/subarrays-with-k-different-integers/submissions/](https://leetcode-cn.com/problems/subarrays-with-k-different-integers/submissions/) | 滑动窗口 |
 | 0995 |  K 连续位的最小翻转次数 | mw,da | [https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips/](https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips/) | 滑动窗口，差分数组 |
+| 1028 | 前序和深度恢复二叉树 | sim | [https://leetcode.cn/problems/recover-a-tree-from-preorder-traversal/](https://leetcode.cn/problems/recover-a-tree-from-preorder-traversal/) | - |
 | 1032 | 字符流检测 | trie | [https://leetcode-cn.com/problems/stream-of-characters/](https://leetcode-cn.com/problems/stream-of-characters/) | 字典树 |
 | 1044 | 最长重复字串 | rabin-karp | [https://leetcode-cn.com/problems/longest-duplicate-substring/](https://leetcode-cn.com/problems/longest-duplicate-substring/) | 拉宾-卡普算法(o(n)字符串匹配) |
 | 1106 | 解析bool表达式 | recur | [https://leetcode-cn.com/problems/parsing-a-boolean-expression/](https://leetcode-cn.com/problems/parsing-a-boolean-expression/) | 递归 |
