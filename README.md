@@ -193,6 +193,7 @@
 | 0995 |  K 连续位的最小翻转次数 | mw,da | [https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips/](https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips/) | 滑动窗口，差分数组 |
 | 1028 | 前序和深度恢复二叉树 | sim | [https://leetcode.cn/problems/recover-a-tree-from-preorder-traversal/](https://leetcode.cn/problems/recover-a-tree-from-preorder-traversal/) | - |
 | 1032 | 字符流检测 | trie | [https://leetcode-cn.com/problems/stream-of-characters/](https://leetcode-cn.com/problems/stream-of-characters/) | 字典树 |
+| 1036 | 逃离巨大迷宫 | dfs | [https://leetcode.cn/problems/escape-a-large-maze/submissions/](https://leetcode.cn/problems/escape-a-large-maze/submissions/) | - |
 | 1044 | 最长重复字串 | rabin-karp | [https://leetcode-cn.com/problems/longest-duplicate-substring/](https://leetcode-cn.com/problems/longest-duplicate-substring/) | 拉宾-卡普算法(o(n)字符串匹配) |
 | 1106 | 解析bool表达式 | recur | [https://leetcode-cn.com/problems/parsing-a-boolean-expression/](https://leetcode-cn.com/problems/parsing-a-boolean-expression/) | 递归 |
 | 1124 | 最长良好表现时间段 | hash,monoStack,prefixSum | [https://leetcode-cn.com/problems/longest-well-performing-interval/](https://leetcode-cn.com/problems/longest-well-performing-interval/) | 前缀和，单调栈 |
