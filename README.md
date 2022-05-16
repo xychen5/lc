@@ -144,6 +144,7 @@
 | 0472 | 连接词 | trie | [https://leetcode-cn.com/problems/concatenated-words/](https://leetcode-cn.com/problems/concatenated-words/) | 字典树 |
 | 0480 | 滑动窗口中位数 | mw,mset | [https://leetcode-cn.com/problems/sliding-window-median/](https://leetcode-cn.com/problems/sliding-window-median/) | 滑动窗口,multiset |
 | 0493 | 翻转对 | bit/segTree | [https://leetcode-cn.com/problems/reverse-pairs/](https://leetcode-cn.com/problems/reverse-pairs/) | bit/segTree |
+| 0502 | ipo上市 | heap | [https://leetcode.cn/problems/ipo/](https://leetcode.cn/problems/ipo/) | - |
 | 0514 | 自由之路 | dfs,memo | [https://leetcode-cn.com/problems/freedom-trail/](https://leetcode-cn.com/problems/freedom-trail/) | 记忆化搜索 |
 | 0516 | 最长回文子序列 | dp | [https://leetcode-cn.com/problems/longest-palindromic-subsequence/](https://leetcode-cn.com/problems/longest-palindromic-subsequence/) | - |
 | 0526 | 优美排列 | bt,arr | [https://leetcode-cn.com/problems/beautiful-arrangement](https://leetcode-cn.com/problems/beautiful-arrangement) | - |
