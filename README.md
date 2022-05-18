@@ -169,6 +169,7 @@
 | 0726 | 原子的数量 | tree | [https://leetcode-cn.com/problems/number-of-atoms/](https://leetcode-cn.com/problems/number-of-atoms/) |  |
 | 0745 | 前缀和后缀搜索 | trie | [https://leetcode-cn.com/problems/prefix-and-suffix-search/](https://leetcode-cn.com/problems/prefix-and-suffix-search/) | 字典树 |
 | 0753 | 破解保险箱(变形欧拉路) | dfs | [https://leetcode-cn.com/problems/freedom-trail/](https://leetcode-cn.com/problems/freedom-trail/) | hierholzer算法/欧拉路 |
+| 0757 | 设置交集为2 | greedy | [https://leetcode.cn/problems/set-intersection-size-at-least-two/](https://leetcode.cn/problems/set-intersection-size-at-least-two/) |  |
 |0761 | 特殊的二进制序列 | recur | [https://leetcode-cn.com/problems/special-binary-string](https://leetcode-cn.com/problems/special-binary-string) | recur |
 | 0765 | 情侣交换最少 | us | [https://leetcode-cn.com/problems/couples-holding-hands/](https://leetcode-cn.com/problems/couples-holding-hands/) | 并查集 |
 | 0768 | 最多能完成排序的块 | monoStack | [https://leetcode-cn.com/problems/max-chunks-to-make-sorted-ii](https://leetcode-cn.com/problems/max-chunks-to-make-sorted-ii) | monoStack |
