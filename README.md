@@ -186,6 +186,7 @@
 | 0874 | 模拟机器人行走 | sim | [https://leetcode-cn.com/problems/walking-robot-simulation/](https://leetcode-cn.com/problems/walking-robot-simulation/) | - |
 | 0891 | 子序列宽度和 | math | [https://leetcode.cn/problems/sum-of-subsequence-widths/](https://leetcode.cn/problems/sum-of-subsequence-widths/) | - |
 | 0895 | 最大频率栈 | map/hash_stack | [https://leetcode-cn.com/problems/maximum-frequency-stack/](https://leetcode-cn.com/problems/maximum-frequency-stack/) | 哈希存栈 |
+| 0899 | 有序队列 | math | [https://leetcode.cn/problems/orderly-queue/](https://leetcode.cn/problems/orderly-queue/) | - |
 | 0904 | 水果成蓝(同0992) | mv,map | [https://leetcode-cn.com/problems/fruit-into-baskets/](https://leetcode-cn.com/problems/fruit-into-baskets/) | 滑动窗口,map |
 | 0912 | 三种基础排序 |  | [https://leetcode-cn.com/problems/sort-an-array/](https://leetcode-cn.com/problems/sort-an-array/) |  |
 | 0924 | 最小化病毒软件传播 | graph,us | [https://leetcode-cn.com/problems/minimize-malware-spread/](https://leetcode-cn.com/problems/minimize-malware-spread/) | 并查集 |
