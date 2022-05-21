@@ -1,4 +1,4 @@
-## 01402cookOrder 做菜顺序
+## 1402cookOrder 做菜顺序
 
 ### 1 题目
 [https://leetcode.cn/problems/reducing-dishes/](https://leetcode.cn/problems/reducing-dishes/)
