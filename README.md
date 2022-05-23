@@ -128,7 +128,8 @@
 | 0381 | o1删除添加随机获取 | math | [https://leetcode-cn.com/problems/insert-delete-getrandom-o1-duplicates-allowed/](https://leetcode-cn.com/problems/insert-delete-getrandom-o1-duplicates-allowed/) | - |
 | 0386 | 字典序排数 | dictTree | [https://leetcode-cn.com/problems/lexicographical-numbers/](https://leetcode-cn.com/problems/lexicographical-numbers/) | - |
 | 0391 | 完美矩形 | - | [https://leetcode-cn.com/problems/perfect-rectangle/](https://leetcode-cn.com/problems/perfect-rectangle/) | trick |
-| 0403 | 青蛙过河 | dp | [https://leetcode-cn.com/problems/frog-jump/](https://leetcode-cn.com/problems/frog-jump/) |  |
+| 0403 | 青蛙过河 | dp | [https://leetcode-cn.com/problems/frog-jump/](https://leetcode-cn.com/problems/frog-jump/) | - |
+| 0407 | 接雨水2 | heap,dfs/bfs | [https://leetcode.cn/problems/trapping-rain-water-ii/](https://leetcode.cn/problems/trapping-rain-water-ii/) | dijstra |
 | 0410 | 分割出最小的子数组最大值 | dp,bs | [https://leetcode-cn.com/problems/split-array-largest-sum/](https://leetcode-cn.com/problems/split-array-largest-sum/) |  |
 | 0413 | 等差数列划分 | arr | [https://leetcode-cn.com/problems/arithmetic-slices/](https://leetcode-cn.com/problems/arithmetic-slices/) | - |
 | 0416 | 分割等和子集 | dp,arr | [https://leetcode-cn.com/problems/partition-equal-subset-sum](https://leetcode-cn.com/problems/partition-equal-subset-sum) | - |
