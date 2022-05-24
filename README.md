@@ -162,6 +162,7 @@
 | 0632 | 最小区间 | heap,greedy | [https://leetcode-cn.com/problems/smallest-range-covering-elements-from-k-lists/](https://leetcode-cn.com/problems/smallest-range-covering-elements-from-k-lists/) | - |
 | 0639 | 解码方法数 | dp | [https://leetcode-cn.com/problems/decode-ways-ii/](https://leetcode-cn.com/problems/decode-ways-ii/) | - |
 | 0664 | 奇怪打印机 | dp | [https://leetcode-cn.com/problems/strange-printer](https://leetcode-cn.com/problems/strange-printer) | 区间dp |
+| 0675 | 高尔夫砍树 | heap,bfs | [https://leetcode.cn/problems/cut-off-trees-for-golf-event/](https://leetcode.cn/problems/cut-off-trees-for-golf-event/) | - |
 | 0684 | 冗余链接 | tree,us,graph | [https://leetcode-cn.com/problems/redundant-connection](https://leetcode-cn.com/problems/redundant-connection) | 并查集 |
 | 0685 | 冗余链接2 | tree,us,graph | [https://leetcode-cn.com/problems/redundant-connection-ii](https://leetcode-cn.com/problems/redundant-connection-ii) | 并查集 |
 | 0689 | 三个无重叠子数组的最大和 | dp | [https://leetcode-cn.com/problems/maximum-sum-of-3-non-overlapping-subarrays/](https://leetcode-cn.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) | - |
