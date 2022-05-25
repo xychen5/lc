@@ -14,13 +14,13 @@
       - B: l = st+1, r = ed,遍历l
       - C: nums[l]l比目标大，将其和ed交换，进入下一个循环，否则直接l++进入下一个循环
       - D: 最后，由于l == r退出循环，但是我们不知道最后一个l和r谁动了，如果l动了，那么nums[l] >= tar，否则nums[l] <= tar,那么我们考虑其中nums[l] >= tar，也就是最后是l++的情况，最后需要把我们一开始放在最前面的nums[st]放到nums[l-1]的位置，因为nums[st+1 : l-1]中的所有数都 <= nums[st]，所以用小半部分的最后一个数和tar也就是nums[st]交换即可
-    - 1.4.2 更加简单的paritition:
-      - A: nums[st, ed]，随机找一个数，为了方便，我们把目标数组移到头部
-      - 考虑：nums[cursor]始终存贮的是游标，cursor = st,(代码中就直接用st代表mid了)
-      - 那么：for(i = st + 1 : ed) {
-      -    若 nums[i]比游标小，交换nums[cursor] 和 nums[i] // 也就是i位置，变成了游标，然后游标右边所有数都比游标小，然后++cursor
-      - }
-      - 最关键的是什么： 理解cursor的含义： nums[:cursor]存储了所有比tar要小的值
+   - 1.4.2 更加简单的paritition:
+    - A: nums[st, ed]，随机找一个数，为了方便，我们把目标数组移到头部
+    - 考虑：nums[cursor]始终存贮的是游标，cursor = st + 1,(代码中千万别直接用st代表最终的结果，最后cursor为比tar大的第一个数字的小标，然后st的下标的位置存的就是tar，全程不参与交换)
+    - 那么：for(i = st + 1 : ed) {
+    -    若 nums[i]比游标小，交换nums[cursor] 和 nums[i] // 也就是i位置，变成了游 ~~标，然后游标右边所有数都比游标小，然后++cur
+    - }
+    - 最关键的是什么： 理解cursor的含义： nums[:cursor - 1]存储了所有比tar要小的值，第一个位置st存储了tar，最后把它和cursor-1的位置进行交换即可
 
 ```cpp
 class Solution {
@@ -65,16 +65,24 @@ public:
         }
     }
 
-    int randomPartition2(vector<int>& nums, int st, int ed){
+
+    int randomPartition2(vector<int>& nums, int st, int ed){        
+        int mid = rand() % (ed - st + 1) + st;
+        swap(nums[st], nums[mid]);
+        
         int tar = nums[st];
+        int cur = st+1;
+
         for(int i = st + 1; i <= ed; ++i) {
-            if(nums[i] < tar) {
-                swap(nums[i], nums[st]);
-                ++st;
+            if(nums[i] <= tar) {
+                swap(nums[i], nums[cur]);
+                ++cur;
             }
         }
+        swap(nums[st], nums[cur-1]);
+        
         // nums[st] = tar;
-        return st;
+        return cur-1;
     }
 
     int randomPartition(vector<int>& nums, int st, int ed) {

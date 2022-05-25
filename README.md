@@ -171,6 +171,7 @@
 | 0715 |  Range 模块 | map | [https://leetcode-cn.com/problems/range-module/](https://leetcode-cn.com/problems/range-module/) | map |
 | 0719 | 第k小的数对距离 | bs | [https://leetcode.cn/problems/find-k-th-smallest-pair-distance/](https://leetcode.cn/problems/find-k-th-smallest-pair-distance/) | - |
 | 0726 | 原子的数量 | tree | [https://leetcode-cn.com/problems/number-of-atoms/](https://leetcode-cn.com/problems/number-of-atoms/) |  |
+| 0733 | 滑动到123450谜题 | bfs | [https://leetcode.cn/problems/sliding-puzzle/](https://leetcode.cn/problems/sliding-puzzle/) | - |
 | 0745 | 前缀和后缀搜索 | trie | [https://leetcode-cn.com/problems/prefix-and-suffix-search/](https://leetcode-cn.com/problems/prefix-and-suffix-search/) | 字典树 |
 | 0753 | 破解保险箱(变形欧拉路) | dfs | [https://leetcode-cn.com/problems/freedom-trail/](https://leetcode-cn.com/problems/freedom-trail/) | hierholzer算法/欧拉路 |
 | 0757 | 设置交集为2 | greedy | [https://leetcode.cn/problems/set-intersection-size-at-least-two/](https://leetcode.cn/problems/set-intersection-size-at-least-two/) |  |
