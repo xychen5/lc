@@ -185,6 +185,7 @@
 | 0827 | 最大岛屿 | uf | [https://leetcode.cn/problems/making-a-large-island/](https://leetcode.cn/problems/making-a-large-island/) | - |
 | 0834 | 树中距离之和 | dp/dfs | [https://leetcode.cn/problems/sum-of-distances-in-tree/](https://leetcode.cn/problems/sum-of-distances-in-tree/) | - |
 | 0839 | 相似字符串组数 | uf | [https://leetcode.cn/problems/similar-string-groups/](https://leetcode.cn/problems/similar-string-groups/) | - |
+| 0847 | 访问所有节点最短路径 | bfs | [https://leetcode.cn/problems/shortest-path-visiting-all-nodes/](https://leetcode.cn/problems/shortest-path-visiting-all-nodes/) | - |
 | 0850 | 矩形面积2 | scanLine | [https://leetcode-cn.com/problems/rectangle-area-ii/solution](https://leetcode-cn.com/problems/rectangle-area-ii/solution) | 扫描线 |
 | 0862 | 和大于k的最短子数组长度 | monoQueue,prefixSum | [https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k/](https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k/) | 单调队列，前缀和 |
 | 0874 | 模拟机器人行走 | sim | [https://leetcode-cn.com/problems/walking-robot-simulation/](https://leetcode-cn.com/problems/walking-robot-simulation/) | - |

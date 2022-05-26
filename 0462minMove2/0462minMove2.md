@@ -20,7 +20,7 @@
     - 那么：for(i = st + 1 : ed) {
     -    若 nums[i]比游标小，交换nums[cursor] 和 nums[i] // 也就是i位置，变成了游 ~~标，然后游标右边所有数都比游标小，然后++cur
     - }
-    - 最关键的是什么： 理解cursor的含义： nums[:cursor - 1]存储了所有比tar要小的值，第一个位置st存储了tar，最后把它和cursor-1的位置进行交换即可
+    - 最关键的是什么： 理解cursor的含义： nums[1:cursor - 1]存储了所有比tar要小的值，第一个位置st存储了tar，最后把它和cursor-1的位置进行交换即可
 
 ```cpp
 class Solution {
