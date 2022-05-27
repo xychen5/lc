@@ -187,6 +187,7 @@
 | 0839 | 相似字符串组数 | uf | [https://leetcode.cn/problems/similar-string-groups/](https://leetcode.cn/problems/similar-string-groups/) | - |
 | 0847 | 访问所有节点最短路径 | bfs | [https://leetcode.cn/problems/shortest-path-visiting-all-nodes/](https://leetcode.cn/problems/shortest-path-visiting-all-nodes/) | - |
 | 0850 | 矩形面积2 | scanLine | [https://leetcode-cn.com/problems/rectangle-area-ii/solution](https://leetcode-cn.com/problems/rectangle-area-ii/solution) | 扫描线 |
+| 0854 | 相似度为k的字符串 | bfs | [https://leetcode.cn/problems/k-similar-strings/](https://leetcode.cn/problems/k-similar-strings/) | - |
 | 0862 | 和大于k的最短子数组长度 | monoQueue,prefixSum | [https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k/](https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k/) | 单调队列，前缀和 |
 | 0874 | 模拟机器人行走 | sim | [https://leetcode-cn.com/problems/walking-robot-simulation/](https://leetcode-cn.com/problems/walking-robot-simulation/) | - |
 | 0891 | 子序列宽度和 | math | [https://leetcode.cn/problems/sum-of-subsequence-widths/](https://leetcode.cn/problems/sum-of-subsequence-widths/) | - |
