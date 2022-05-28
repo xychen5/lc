@@ -55,6 +55,7 @@
 | 记忆化搜索 | memo |
 | 排序 | sort |
 | kmp字符串匹配 | kmp算法 |
+| 状态压缩 | statusCompression |
 
 ## 2 题解
 | 题号 | 题名 | 类型 | 链接 | 使用算法 |
@@ -185,10 +186,11 @@
 | 0827 | 最大岛屿 | uf | [https://leetcode.cn/problems/making-a-large-island/](https://leetcode.cn/problems/making-a-large-island/) | - |
 | 0834 | 树中距离之和 | dp/dfs | [https://leetcode.cn/problems/sum-of-distances-in-tree/](https://leetcode.cn/problems/sum-of-distances-in-tree/) | - |
 | 0839 | 相似字符串组数 | uf | [https://leetcode.cn/problems/similar-string-groups/](https://leetcode.cn/problems/similar-string-groups/) | - |
-| 0847 | 访问所有节点最短路径 | bfs | [https://leetcode.cn/problems/shortest-path-visiting-all-nodes/](https://leetcode.cn/problems/shortest-path-visiting-all-nodes/) | - |
+| 0847 | 访问所有节点最短路径 | 状态bfs/statusCompression | [https://leetcode.cn/problems/shortest-path-visiting-all-nodes/](https://leetcode.cn/problems/shortest-path-visiting-all-nodes/) | 带状态压缩的bfs |
 | 0850 | 矩形面积2 | scanLine | [https://leetcode-cn.com/problems/rectangle-area-ii/solution](https://leetcode-cn.com/problems/rectangle-area-ii/solution) | 扫描线 |
 | 0854 | 相似度为k的字符串 | bfs | [https://leetcode.cn/problems/k-similar-strings/](https://leetcode.cn/problems/k-similar-strings/) | - |
 | 0862 | 和大于k的最短子数组长度 | monoQueue,prefixSum | [https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k/](https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k/) | 单调队列，前缀和 |
+| 0864 | 获取所有钥匙的最短路径 | 状态bfs/statusCompression | [https://leetcode.cn/problems/shortest-path-to-get-all-keys/submissions/](https://leetcode.cn/problems/shortest-path-to-get-all-keys/submissions/) | 带状态压缩的bfs |
 | 0874 | 模拟机器人行走 | sim | [https://leetcode-cn.com/problems/walking-robot-simulation/](https://leetcode-cn.com/problems/walking-robot-simulation/) | - |
 | 0891 | 子序列宽度和 | math | [https://leetcode.cn/problems/sum-of-subsequence-widths/](https://leetcode.cn/problems/sum-of-subsequence-widths/) | - |
 | 0895 | 最大频率栈 | map/hash_stack | [https://leetcode-cn.com/problems/maximum-frequency-stack/](https://leetcode-cn.com/problems/maximum-frequency-stack/) | 哈希存栈 |
