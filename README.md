@@ -56,6 +56,7 @@
 | 排序 | sort |
 | kmp字符串匹配 | kmp算法 |
 | 状态压缩 | statusCompression |
+| 二进制偏移 | binLift |
 
 ## 2 题解
 | 题号 | 题名 | 类型 | 链接 | 使用算法 |
@@ -218,6 +219,7 @@
 | 1377 | T秒后青蛙的位置 | bfs | [https://leetcode.cn/problems/frog-position-after-t-seconds/](https://leetcode.cn/problems/frog-position-after-t-seconds/) | - |
 | 1402 | 做菜顺序 | sort,dp | [https://leetcode.cn/problems/reducing-dishes/](https://leetcode.cn/problems/reducing-dishes/) | - |
 | 1472 | 浏览器历史 | stack | [https://leetcode-cn.com/problems/design-browser-history/](https://leetcode-cn.com/problems/design-browser-history/) | - |
+| 1483 | 树节点的第 K 个祖先 | binLift,dp | [https://leetcode.cn/problems/kth-ancestor-of-a-tree-node/](https://leetcode.cn/problems/kth-ancestor-of-a-tree-node/) | 二进制偏移 |
 | 1526 | 形成目标数组的子数组最少增加次数 | segTree | [https://leetcode-cn.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/](https://leetcode-cn.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/) | 数学 |
 | 1546 | 非重叠子数组和的个数 | prefixSum,hash | [https://leetcode-cn.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/submissions/](https://leetcode-cn.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/submissions/) | 前缀和 |
 | 1569 | 将子数组重新排序得到同一个二叉查找树的方案数 | bst，recur | [https://leetcode-cn.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/](https://leetcode-cn.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/) | 二叉搜索树，recur |
