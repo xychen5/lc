@@ -230,6 +230,7 @@
 | 1669 | 合并两个链表 | ll | [https://leetcode-cn.com/problems/merge-in-between-linked-lists/](https://leetcode-cn.com/problems/merge-in-between-linked-lists/) | - |
 | 1696 | 最大跳跃所得 | mw,heap | [https://leetcode-cn.com/problems/jump-game-vi/submissions/](https://leetcode-cn.com/problems/jump-game-vi/submissions/) | 滑动窗口，最大堆 |
 | 1703 | 最小移动数量获得连续k个1 | math,prefixSum,mw | [https://leetcode-cn.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones](https://leetcode-cn.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones) | 滑动窗口,前缀和 |
+| 1719 | 重构一棵树的方案数 | trick/tree | [https://leetcode.cn/problems/number-of-ways-to-reconstruct-a-tree/](https://leetcode.cn/problems/number-of-ways-to-reconstruct-a-tree/) | - |
 | 1760 | 球的出口 | sim | [https://leetcode-cn.com/problems/where-will-the-ball-fall/](https://leetcode-cn.com/problems/where-will-the-ball-fall/) | - |
 | 1793 | 好子数组的最大分数 | monoStack | [https://leetcode-cn.com/problems/maximum-score-of-a-good-subarray/](https://leetcode-cn.com/problems/maximum-score-of-a-good-subarray/) | 单调栈 |
 | 1808 | 最大好因子个数 | math | [https://leetcode-cn.com/problems/maximize-number-of-nice-divisors/](https://leetcode-cn.com/problems/maximize-number-of-nice-divisors/) | math |
