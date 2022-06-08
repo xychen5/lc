@@ -195,6 +195,7 @@
 | 0862 | 和大于k的最短子数组长度 | monoQueue,prefixSum | [https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k/](https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k/) | 单调队列，前缀和 |
 | 0864 | 获取所有钥匙的最短路径 | 状态bfs/statusCompression | [https://leetcode.cn/problems/shortest-path-to-get-all-keys/submissions/](https://leetcode.cn/problems/shortest-path-to-get-all-keys/submissions/) | 带状态压缩的bfs |
 | 0874 | 模拟机器人行走 | sim | [https://leetcode-cn.com/problems/walking-robot-simulation/](https://leetcode-cn.com/problems/walking-robot-simulation/) | - |
+| 0878 | 第 N 个神奇数字 | binSear/math | [https://leetcode.cn/problems/nth-magical-number/](https://leetcode.cn/problems/nth-magical-number/) | - |
 | 0891 | 子序列宽度和 | math | [https://leetcode.cn/problems/sum-of-subsequence-widths/](https://leetcode.cn/problems/sum-of-subsequence-widths/) | - |
 | 0895 | 最大频率栈 | map/hash_stack | [https://leetcode-cn.com/problems/maximum-frequency-stack/](https://leetcode-cn.com/problems/maximum-frequency-stack/) | 哈希存栈 |
 | 0899 | 有序队列 | math | [https://leetcode.cn/problems/orderly-queue/](https://leetcode.cn/problems/orderly-queue/) | - |
