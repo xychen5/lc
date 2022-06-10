@@ -214,6 +214,7 @@
 | 1032 | 字符流检测 | trie | [https://leetcode-cn.com/problems/stream-of-characters/](https://leetcode-cn.com/problems/stream-of-characters/) | 字典树 |
 | 1036 | 逃离巨大迷宫 | dfs | [https://leetcode.cn/problems/escape-a-large-maze/submissions/](https://leetcode.cn/problems/escape-a-large-maze/submissions/) | - |
 | 1044 | 最长重复字串 | rabin-karp | [https://leetcode-cn.com/problems/longest-duplicate-substring/](https://leetcode-cn.com/problems/longest-duplicate-substring/) | 拉宾-卡普算法(o(n)字符串匹配) |
+| 1095 | 山脉数组中查找目标值 | binSear | [https://leetcode.cn/problems/find-in-mountain-array/](https://leetcode.cn/problems/find-in-mountain-array/) | - |
 | 1106 | 解析bool表达式 | recur | [https://leetcode-cn.com/problems/parsing-a-boolean-expression/](https://leetcode-cn.com/problems/parsing-a-boolean-expression/) | 递归 |
 | 1124 | 最长良好表现时间段 | hash,monoStack,prefixSum | [https://leetcode-cn.com/problems/longest-well-performing-interval/](https://leetcode-cn.com/problems/longest-well-performing-interval/) | 前缀和，单调栈 |
 | 1171 | 移除0和子链表 | ll,prefixSum | [https://leetcode-cn.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/](https://leetcode-cn.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/) | 前缀和 |
