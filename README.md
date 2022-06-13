@@ -248,4 +248,6 @@
 | 2014 | 重复 K 次的最长子序列 | dictOrder,perm | [https://leetcode-cn.com/problems/largest-color-value-in-a-directed-graph/](https://leetcode-cn.com/problems/largest-color-value-in-a-directed-graph/) | 排列，字典序 |
 | 2025 | 分割数组最多方案数 | hash,preSum | [https://leetcode-cn.com/problems/maximum-number-of-ways-to-partition-an-array/](https://leetcode-cn.com/problems/maximum-number-of-ways-to-partition-an-array/) | 前缀和，hash |
 | 2030 | 含特定字母的最小子序列 | monoStack | [https://leetcode-cn.com/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter/](https://leetcode-cn.com/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter/) | 单调栈 |
+| lcp10 | 二叉树任务调度 | bt | [https://leetcode.cn/problems/er-cha-shu-ren-wu-diao-du/](https://leetcode.cn/problems/er-cha-shu-ren-wu-diao-du/)
+ | - |
 |  |  |  |  |  |
