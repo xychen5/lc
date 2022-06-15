@@ -11,54 +11,96 @@
 ```cpp
 class Solution {
 public:
-    string lastSubstring(string s) {
-        // find max in subffix array
+static const int mod = 1'000'000'007;
+    int maxSum(vector<int>& nums1, vector<int>& nums2) {
+        long long n1 = nums1.size();
+        long long n2 = nums2.size();
+
+        vector<long long> preSum1(n1 + 1, 0);
+        vector<long long> preSum2(n2 + 1, 0);
         
-        int maxChar = s.back();
-        int n = s.size();
-        int maxPos = n-1;
-        for(int i = n-1; i >= 0; --i) {
-            if(s[i] >= maxChar) {
-                maxChar = s[i];
-                maxPos = i;
-            }
+        for(long long i = 1; i <= n1; ++i) {
+            preSum1[i] = preSum1[i-1] + nums1[i-1];
+        }
+        for(long long i = 1; i <= n2; ++i) {
+            preSum2[i] = preSum2[i-1] + nums2[i-1];
+        }
+        
+        unordered_map<long long, long long> toIdx;
+        long long idx = 0;
+        for(auto num : nums1) {
+            toIdx[num] = idx;
+            ++idx;
         }
 
-        int st = maxPos+1;
-        // cout << "init maxPos: " <<maxPos << endl;
-        while(st < n) {
-            if(s[st] == maxChar) {
-                // cmp st and maxPos
-                int newSt = st;
-                int oldSt = maxPos;
-                // cout << "old/new: " << oldSt <<"/" << st << endl;
-                while((newSt < n && oldSt < st) && (s[newSt] == s[oldSt])) {
-                    ++newSt;
-                    ++oldSt;
-                }
-                if(newSt == n) {
-                    // 和下面情况是一样的
-                    st = newSt;
-                    continue;
-                } else if(oldSt == st) {
-                    // 答案必然不会在st 和 newSt之间
-                    // 原因： s[oldSt:st]之间都是搜索过的z，那么肯定直接从下一个z搜索也就是st+1的位置后面的第一个z
-                    // 然后由于从st开始到newSt的字串，没有撼动maxPos到st的这个字串，则直接从st到newSt之间的任何的z的搜索都会是重复计算
-                    // 因为：s[oldSt:st]中的所有z都搜索过，然后又因为s[st:newSt] == s[oldSt:st]，那么必然s[st:newSt]中的每个z的都在s[oldSt:st]中
-                    // 出现过，所以不会重新搜索，于是可以直接从newSt开始搜索
-                    st = newSt;
-                    continue;
-                }
-                if(s[newSt] > s[oldSt]) {
-                    maxPos = st;
-                }
-                ++st;
-            } else {
-                ++st;
+        // jolong long: <idx in nums1, idx in nums2>
+        vector<pair<long long, long long>> joints;
+        long long idx2 = 0;
+        for(auto num2 : nums2) {
+            if(toIdx.count(num2) != 0) {
+                joints.emplace_back(toIdx[num2], idx2);
             }
+            ++idx2;
         }
 
-        return s.substr(maxPos);
+        if(0 == joints.size()) {
+            return max(preSum1.back(), preSum2.back());
+        }
+
+        long long sum1 = 0;
+        int cur1 = 0, cur2 = 0;
+        long long sum2 = 0;
+        
+        for(auto& [tar1, tar2] : joints) {
+            // move cur1 and cur2
+            while(cur1 <= tar1) {
+                sum1 += nums1[cur1];
+                ++cur1;
+            }
+
+            while(cur2 <= tar2) {
+                sum2 += nums2[cur2];
+                ++cur2;
+            }
+
+            sum1 = sum2 = max(sum1, sum2) % mod;
+        }
+
+        while(cur1 < n1) {
+            sum1 += nums1[cur1];
+            ++cur1;
+        }
+        while(cur2 < n2) {
+            sum2 += nums2[cur2];
+            ++cur2;
+        }
+
+        return max(sum1, sum2) % mod;
+
+        // // deal each jolong long
+        // long long res = max(
+        //     preSum1[joints[0].first],
+        //     preSum2[joints[0].second]
+        // );
+        // // cout << "init res: " << res << endl;
+        // // cout << "new jolong long in 1/2: " << joints[0].first << "/" << joints[0].second << endl;
+
+        // for(long long i = 1; i < joints.size(); ++i) {
+        //     // if()
+        //     res += max(
+        //         preSum1[joints[i].first] - preSum1[joints[i-1].first],
+        //         preSum2[joints[i].second] - preSum2[joints[i-1].second]
+        //     );
+        //     // cout << "next Res: " <<res <<endl;
+        // }
+
+        // // cout << "last jolong long: " << joints.back().first << "/" << joints.back().second << endl;
+        // res += max(
+        //     preSum1[n1] - preSum1[joints.back().first],
+        //     preSum2[n2] - preSum2[joints.back().second]
+        // );
+
+        // return res;
     }
 };
 ```
