@@ -58,6 +58,7 @@
 | 状态压缩 | statusCompression |
 | 二进制偏移 | binLift |
 | 迪杰斯塔拉 | dijstra |
+| tarjan算法 | tarjan算法 |
 
 
 ## 2 题解
@@ -223,6 +224,7 @@
 | 1157 | 子数组中占绝大多数的元素 | binSear | [https://leetcode.cn/problems/online-majority-element-in-subarray/](https://leetcode.cn/problems/online-majority-element-in-subarray/) | - |
 | 1163 | 最大字典序字串 | suffixArr | [https://leetcode.cn/problems/last-substring-in-lexicographical-order/](https://leetcode.cn/problems/last-substring-in-lexicographical-order/) | - |
 | 1171 | 移除0和子链表 | ll,prefixSum | [https://leetcode-cn.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/](https://leetcode-cn.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/) | 前缀和 |
+| 1192 | 查找集群内的「关键连接」 | graph/dfs | [https://leetcode.cn/problems/critical-connections-in-a-network/](https://leetcode.cn/problems/critical-connections-in-a-network/) | tarjan算法 |
 | 1292 | 最大正方形边长 | bs,prefixSum | [https://leetcode-cn.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/](https://leetcode-cn.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/) | 前缀和 |
 | 1316 | 不同的循环子字符串 | rabin-karp | [https://leetcode-cn.com/problems/distinct-echo-substrings/](https://leetcode-cn.com/problems/distinct-echo-substrings/) | 拉宾-卡普算法(o(n)字符串匹配) |
 | 1373 | 二叉搜索子树的最大键值和 | bst | [https://leetcode-cn.com/problems/maximum-sum-bst-in-binary-tree/](https://leetcode-cn.com/problems/maximum-sum-bst-in-binary-tree/) | 二叉搜索树 |
