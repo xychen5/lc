@@ -227,6 +227,7 @@
 | 1192 | 查找集群内的「关键连接」 | graph/dfs | [https://leetcode.cn/problems/critical-connections-in-a-network/](https://leetcode.cn/problems/critical-connections-in-a-network/) | tarjan算法 |
 | 1292 | 最大正方形边长 | bs,prefixSum | [https://leetcode-cn.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/](https://leetcode-cn.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/) | 前缀和 |
 | 1316 | 不同的循环子字符串 | rabin-karp | [https://leetcode-cn.com/problems/distinct-echo-substrings/](https://leetcode-cn.com/problems/distinct-echo-substrings/) | 拉宾-卡普算法(o(n)字符串匹配) |
+| 1368 | 使网格图至少有一条有效路径的最小代价 | bfs/dijstra | [https://leetcode.cn/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/](https://leetcode.cn/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | 01bfs，迪杰斯特拉 |
 | 1373 | 二叉搜索子树的最大键值和 | bst | [https://leetcode-cn.com/problems/maximum-sum-bst-in-binary-tree/](https://leetcode-cn.com/problems/maximum-sum-bst-in-binary-tree/) | 二叉搜索树 |
 | 1377 | T秒后青蛙的位置 | bfs | [https://leetcode.cn/problems/frog-position-after-t-seconds/](https://leetcode.cn/problems/frog-position-after-t-seconds/) | - |
 | 1402 | 做菜顺序 | sort,dp | [https://leetcode.cn/problems/reducing-dishes/](https://leetcode.cn/problems/reducing-dishes/) | - |
