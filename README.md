@@ -255,6 +255,7 @@
 | 1857 | 有向图中最大颜色值 | graph,topoSort,dp | [https://leetcode-cn.com/problems/largest-color-value-in-a-directed-graph/](https://leetcode-cn.com/problems/largest-color-value-in-a-directed-graph/) | 拓扑排序，动态规划 |
 | 1877 | 最小最大数对和 | arr | [https://leetcode-cn.com/problems/minimize-maximum-pair-sum-in-array/](https://leetcode-cn.com/problems/minimize-maximum-pair-sum-in-array/) | - |
 | 1889 | 最小空间浪费 | arr,binSear,prefixSum | [https://leetcode-cn.com/problems/minimum-space-wasted-from-packaging/submissions/](https://leetcode-cn.com/problems/minimum-space-wasted-from-packaging/submissions/) | 二分查找,前缀和 |
+| 1928 | 规定时间内到达终点的最小花费 | graph/dp | [https://leetcode.cn/problems/minimum-cost-to-reach-destination-in-time/](https://leetcode.cn/problems/minimum-cost-to-reach-destination-in-time/) | - |
 | 1944 | 队列中可以看到的人数 | monoStack | [https://leetcode-cn.com/problems/number-of-visible-people-in-a-queue/](https://leetcode-cn.com/problems/number-of-visible-people-in-a-queue/) | 单调栈 |
 | 2014 | 重复 K 次的最长子序列 | dictOrder,perm | [https://leetcode-cn.com/problems/largest-color-value-in-a-directed-graph/](https://leetcode-cn.com/problems/largest-color-value-in-a-directed-graph/) | 排列，字典序 |
 | 2025 | 分割数组最多方案数 | hash,preSum | [https://leetcode-cn.com/problems/maximum-number-of-ways-to-partition-an-array/](https://leetcode-cn.com/problems/maximum-number-of-ways-to-partition-an-array/) | 前缀和，hash |
