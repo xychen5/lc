@@ -173,6 +173,7 @@
 | 0684 | 冗余链接 | tree,us,graph | [https://leetcode-cn.com/problems/redundant-connection](https://leetcode-cn.com/problems/redundant-connection) | 并查集 |
 | 0685 | 冗余链接2 | tree,us,graph | [https://leetcode-cn.com/problems/redundant-connection-ii](https://leetcode-cn.com/problems/redundant-connection-ii) | 并查集 |
 | 0689 | 三个无重叠子数组的最大和 | dp | [https://leetcode-cn.com/problems/maximum-sum-of-3-non-overlapping-subarrays/](https://leetcode-cn.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) | - |
+| 0698 | 可以划分为k个等和子集 | backTrack/memo | [https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/](https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/) | - |
 | 0699 | 掉落的方块 | set | [https://leetcode-cn.com/problems/falling-squares/](https://leetcode-cn.com/problems/falling-squares/) | 有序集合(坐标压缩) |
 | 0710 | 黑名单中的随机数 | math | [https://leetcode-cn.com/problems/random-pick-with-blacklist/](https://leetcode-cn.com/problems/random-pick-with-blacklist/) | - |
 | 0715 |  Range 模块 | map | [https://leetcode-cn.com/problems/range-module/](https://leetcode-cn.com/problems/range-module/) | map |
