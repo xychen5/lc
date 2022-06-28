@@ -211,6 +211,7 @@
 | 0952 | 最大质因数联通分量大小 | graph,us | [https://leetcode-cn.com/problems/largest-component-size-by-common-factor](https://leetcode-cn.com/problems/largest-component-size-by-common-factor) | 并查集 |
 | 0928 | 最小化病毒软件传播2 | graph,us | [https://leetcode-cn.com/problems/minimize-malware-spread-ii/](https://leetcode-cn.com/problems/minimize-malware-spread-ii/) | 并查集 |
 | 0968 | 监控二叉树 | graph/dfs/memo | [https://leetcode-cn.com/problems/binary-tree-cameras/submissions/](https://leetcode-cn.com/problems/binary-tree-cameras/submissions/) | 记忆化搜索 |
+| 0980 | 不同路径3 | backTrack | [https://leetcode.cn/problems/unique-paths-iii/](https://leetcode.cn/problems/unique-paths-iii/) | - |
 | 0982 | 按位与为1的三元组个数 | hash | [https://leetcode-cn.com/problems/triples-with-bitwise-and-equal-to-zero/submissions/](https://leetcode-cn.com/problems/triples-with-bitwise-and-equal-to-zero/submissions/) | - |
 | 0987 | 垂序遍历 | dfs, hash | [https://leetcode-cn.com/problems/vertical-order-traversal-of-a-binary-tree/](https://leetcode-cn.com/problems/vertical-order-traversal-of-a-binary-tree/) | - |
 | 0992 | 不同元素不大于k个的子数组个数 | mw | [https://leetcode-cn.com/problems/subarrays-with-k-different-integers/submissions/](https://leetcode-cn.com/problems/subarrays-with-k-different-integers/submissions/) | 滑动窗口 |
