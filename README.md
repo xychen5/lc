@@ -56,6 +56,10 @@
 | 排序 | sort |
 | kmp字符串匹配 | kmp算法 |
 | 状态压缩 | statusCompression |
+| 二进制偏移 | binLift |
+| 迪杰斯塔拉 | dijstra |
+| tarjan算法 | tarjan算法 |
+
 
 ## 2 题解
 | 题号 | 题名 | 类型 | 链接 | 使用算法 |
@@ -66,6 +70,7 @@
 | 0000_interview_maxTowerLen | 最高罗汉塔高度 | dp | [https://www.nowcoder.com/practice/c2afcd7353f84690bb73aa6123548770?tpId=182&tqId=34688&rp=1&ru=/exam/oj&qru=/exam/oj&sourceUrl=%2Fexam%2Foj%3Ftab%3D%25E5%2590%258D%25E4%25BC%2581%25E7%25AC%2594%25E8%25AF%2595%25E7%259C%259F%25E9%25A2%2598%26topicId%3D182%26page%3D1&difficulty=undefined&judgeStatus=undefined&tags=&title=](https://www.nowcoder.com/practice/c2afcd7353f84690bb73aa6123548770?tpId=182&tqId=34688&rp=1&ru=/exam/oj&qru=/exam/oj&sourceUrl=%2Fexam%2Foj%3Ftab%3D%25E5%2590%258D%25E4%25BC%2581%25E7%25AC%2594%25E8%25AF%2595%25E7%259C%259F%25E9%25A2%2598%26topicId%3D182%26page%3D1&difficulty=undefined&judgeStatus=undefined&tags=&title=) | - |
 | 0000_interview_mergeKList | 合并k个升序链表 | ll | [https://www.nowcoder.com/practice/65cfde9e5b9b4cf2b6bafa5f3ef33fa6?tpId=295&tqId=724&ru=/exam/oj&qru=/ta/format-top101/question-ranking&sourceUrl=%2Fexam%2Foj](https://www.nowcoder.com/practice/65cfde9e5b9b4cf2b6bafa5f3ef33fa6?tpId=295&tqId=724&ru=/exam/oj&qru=/ta/format-top101/question-ranking&sourceUrl=%2Fexam%2Foj) | - |
 | 0000_interview_subAddBinTree | 加减二叉树  | bst | [https://www.nowcoder.com/questionTerminal/39953c879b79412b85fbca2ffdeb0a4c?f=discussion](https://www.nowcoder.com/questionTerminal/39953c879b79412b85fbca2ffdeb0a4c?f=discussion) | 数学 |
+| 0004 | 寻找两个正序数组的中位数 | binSear | [https://leetcode.cn/problems/median-of-two-sorted-arrays/](https://leetcode.cn/problems/median-of-two-sorted-arrays/) | - |
 | 0010 | 正则表达式匹配  | recur | [https://leetcode-cn.com/problems/regular-expression-matching](https://leetcode-cn.com/problems/regular-expression-matching) | recur |
 | 0015 | 三数之和 | twoPtr | [https://leetcode-cn.com/problems/3sum/](https://leetcode-cn.com/problems/3sum/) | - |
 | 0025 | k个一组翻转链表 | recur,ll | [https://leetcode-cn.com/problems/reverse-nodes-in-k-group/](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | recur,ll |
@@ -163,10 +168,12 @@
 | 0632 | 最小区间 | heap,greedy | [https://leetcode-cn.com/problems/smallest-range-covering-elements-from-k-lists/](https://leetcode-cn.com/problems/smallest-range-covering-elements-from-k-lists/) | - |
 | 0639 | 解码方法数 | dp | [https://leetcode-cn.com/problems/decode-ways-ii/](https://leetcode-cn.com/problems/decode-ways-ii/) | - |
 | 0664 | 奇怪打印机 | dp | [https://leetcode-cn.com/problems/strange-printer](https://leetcode-cn.com/problems/strange-printer) | 区间dp |
+| 0668 | 乘法表中第k小的数 | math/binSear | [https://leetcode.cn/problems/kth-smallest-number-in-multiplication-table/](https://leetcode.cn/problems/kth-smallest-number-in-multiplication-table/) | - |
 | 0675 | 高尔夫砍树 | heap,bfs | [https://leetcode.cn/problems/cut-off-trees-for-golf-event/](https://leetcode.cn/problems/cut-off-trees-for-golf-event/) | - |
 | 0684 | 冗余链接 | tree,us,graph | [https://leetcode-cn.com/problems/redundant-connection](https://leetcode-cn.com/problems/redundant-connection) | 并查集 |
 | 0685 | 冗余链接2 | tree,us,graph | [https://leetcode-cn.com/problems/redundant-connection-ii](https://leetcode-cn.com/problems/redundant-connection-ii) | 并查集 |
 | 0689 | 三个无重叠子数组的最大和 | dp | [https://leetcode-cn.com/problems/maximum-sum-of-3-non-overlapping-subarrays/](https://leetcode-cn.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) | - |
+| 0698 | 可以划分为k个等和子集 | backTrack/memo | [https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/](https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/) | - |
 | 0699 | 掉落的方块 | set | [https://leetcode-cn.com/problems/falling-squares/](https://leetcode-cn.com/problems/falling-squares/) | 有序集合(坐标压缩) |
 | 0710 | 黑名单中的随机数 | math | [https://leetcode-cn.com/problems/random-pick-with-blacklist/](https://leetcode-cn.com/problems/random-pick-with-blacklist/) | - |
 | 0715 |  Range 模块 | map | [https://leetcode-cn.com/problems/range-module/](https://leetcode-cn.com/problems/range-module/) | map |
@@ -192,41 +199,61 @@
 | 0862 | 和大于k的最短子数组长度 | monoQueue,prefixSum | [https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k/](https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k/) | 单调队列，前缀和 |
 | 0864 | 获取所有钥匙的最短路径 | 状态bfs/statusCompression | [https://leetcode.cn/problems/shortest-path-to-get-all-keys/submissions/](https://leetcode.cn/problems/shortest-path-to-get-all-keys/submissions/) | 带状态压缩的bfs |
 | 0874 | 模拟机器人行走 | sim | [https://leetcode-cn.com/problems/walking-robot-simulation/](https://leetcode-cn.com/problems/walking-robot-simulation/) | - |
+| 0878 | 第 N 个神奇数字 | binSear/math | [https://leetcode.cn/problems/nth-magical-number/](https://leetcode.cn/problems/nth-magical-number/) | - |
+| 0882 | 细分图中的可到达结点 | graph/dijstra | [https://leetcode.cn/problems/reachable-nodes-in-subdivided-graph/](https://leetcode.cn/problems/reachable-nodes-in-subdivided-graph/) | dijstra |
 | 0891 | 子序列宽度和 | math | [https://leetcode.cn/problems/sum-of-subsequence-widths/](https://leetcode.cn/problems/sum-of-subsequence-widths/) | - |
 | 0895 | 最大频率栈 | map/hash_stack | [https://leetcode-cn.com/problems/maximum-frequency-stack/](https://leetcode-cn.com/problems/maximum-frequency-stack/) | 哈希存栈 |
 | 0899 | 有序队列 | math | [https://leetcode.cn/problems/orderly-queue/](https://leetcode.cn/problems/orderly-queue/) | - |
+| 0902 | 最大为 N 的数字组合 | dp | [https://leetcode.cn/problems/numbers-at-most-n-given-digit-set/](https://leetcode.cn/problems/numbers-at-most-n-given-digit-set/) | 数位dp |
 | 0904 | 水果成蓝(同0992) | mv,map | [https://leetcode-cn.com/problems/fruit-into-baskets/](https://leetcode-cn.com/problems/fruit-into-baskets/) | 滑动窗口,map |
 | 0912 | 三种基础排序 |  | [https://leetcode-cn.com/problems/sort-an-array/](https://leetcode-cn.com/problems/sort-an-array/) |  |
 | 0924 | 最小化病毒软件传播 | graph,us | [https://leetcode-cn.com/problems/minimize-malware-spread/](https://leetcode-cn.com/problems/minimize-malware-spread/) | 并查集 |
 | 0952 | 最大质因数联通分量大小 | graph,us | [https://leetcode-cn.com/problems/largest-component-size-by-common-factor](https://leetcode-cn.com/problems/largest-component-size-by-common-factor) | 并查集 |
 | 0928 | 最小化病毒软件传播2 | graph,us | [https://leetcode-cn.com/problems/minimize-malware-spread-ii/](https://leetcode-cn.com/problems/minimize-malware-spread-ii/) | 并查集 |
 | 0968 | 监控二叉树 | graph/dfs/memo | [https://leetcode-cn.com/problems/binary-tree-cameras/submissions/](https://leetcode-cn.com/problems/binary-tree-cameras/submissions/) | 记忆化搜索 |
+| 0980 | 不同路径3 | backTrack | [https://leetcode.cn/problems/unique-paths-iii/](https://leetcode.cn/problems/unique-paths-iii/) | - |
 | 0982 | 按位与为1的三元组个数 | hash | [https://leetcode-cn.com/problems/triples-with-bitwise-and-equal-to-zero/submissions/](https://leetcode-cn.com/problems/triples-with-bitwise-and-equal-to-zero/submissions/) | - |
 | 0987 | 垂序遍历 | dfs, hash | [https://leetcode-cn.com/problems/vertical-order-traversal-of-a-binary-tree/](https://leetcode-cn.com/problems/vertical-order-traversal-of-a-binary-tree/) | - |
 | 0992 | 不同元素不大于k个的子数组个数 | mw | [https://leetcode-cn.com/problems/subarrays-with-k-different-integers/submissions/](https://leetcode-cn.com/problems/subarrays-with-k-different-integers/submissions/) | 滑动窗口 |
 | 0995 |  K 连续位的最小翻转次数 | mw,da | [https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips/](https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips/) | 滑动窗口，差分数组 |
+| 0996 | 正方形数组的排列个数 | perm,backTrack,memo | [https://leetcode.cn/problems/number-of-squareful-arrays/](https://leetcode.cn/problems/number-of-squareful-arrays/)
+ | - |
 | 1028 | 前序和深度恢复二叉树 | sim | [https://leetcode.cn/problems/recover-a-tree-from-preorder-traversal/](https://leetcode.cn/problems/recover-a-tree-from-preorder-traversal/) | - |
 | 1032 | 字符流检测 | trie | [https://leetcode-cn.com/problems/stream-of-characters/](https://leetcode-cn.com/problems/stream-of-characters/) | 字典树 |
 | 1036 | 逃离巨大迷宫 | dfs | [https://leetcode.cn/problems/escape-a-large-maze/submissions/](https://leetcode.cn/problems/escape-a-large-maze/submissions/) | - |
 | 1044 | 最长重复字串 | rabin-karp | [https://leetcode-cn.com/problems/longest-duplicate-substring/](https://leetcode-cn.com/problems/longest-duplicate-substring/) | 拉宾-卡普算法(o(n)字符串匹配) |
+| 1095 | 山脉数组中查找目标值 | binSear | [https://leetcode.cn/problems/find-in-mountain-array/](https://leetcode.cn/problems/find-in-mountain-array/) | - |
 | 1106 | 解析bool表达式 | recur | [https://leetcode-cn.com/problems/parsing-a-boolean-expression/](https://leetcode-cn.com/problems/parsing-a-boolean-expression/) | 递归 |
 | 1124 | 最长良好表现时间段 | hash,monoStack,prefixSum | [https://leetcode-cn.com/problems/longest-well-performing-interval/](https://leetcode-cn.com/problems/longest-well-performing-interval/) | 前缀和，单调栈 |
+| 1157 | 子数组中占绝大多数的元素 | binSear | [https://leetcode.cn/problems/online-majority-element-in-subarray/](https://leetcode.cn/problems/online-majority-element-in-subarray/) | - |
+| 1163 | 最大字典序字串 | suffixArr | [https://leetcode.cn/problems/last-substring-in-lexicographical-order/](https://leetcode.cn/problems/last-substring-in-lexicographical-order/) | - |
 | 1171 | 移除0和子链表 | ll,prefixSum | [https://leetcode-cn.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/](https://leetcode-cn.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/) | 前缀和 |
+| 1192 | 查找集群内的「关键连接」 | graph/dfs | [https://leetcode.cn/problems/critical-connections-in-a-network/](https://leetcode.cn/problems/critical-connections-in-a-network/) | tarjan算法 |
+| 1240 | 贴瓷砖 | backTrack | [https://leetcode.cn/problems/tiling-a-rectangle-with-the-fewest-squares/](https://leetcode.cn/problems/tiling-a-rectangle-with-the-fewest-squares/) | - |
 | 1255 | 最大单词分数从字母集合中 | backTrack/statusCompression | [https://leetcode.cn/problems/maximum-score-words-formed-by-letters/](https://leetcode.cn/problems/maximum-score-words-formed-by-letters/) | - |
 | 1292 | 最大正方形边长 | bs,prefixSum | [https://leetcode-cn.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/](https://leetcode-cn.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/) | 前缀和 |
 | 1316 | 不同的循环子字符串 | rabin-karp | [https://leetcode-cn.com/problems/distinct-echo-substrings/](https://leetcode-cn.com/problems/distinct-echo-substrings/) | 拉宾-卡普算法(o(n)字符串匹配) |
+| 1368 | 使网格图至少有一条有效路径的最小代价 | bfs/dijstra | [https://leetcode.cn/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/](https://leetcode.cn/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | 01bfs，迪杰斯特拉 |
 | 1373 | 二叉搜索子树的最大键值和 | bst | [https://leetcode-cn.com/problems/maximum-sum-bst-in-binary-tree/](https://leetcode-cn.com/problems/maximum-sum-bst-in-binary-tree/) | 二叉搜索树 |
+| 1377 | T秒后青蛙的位置 | bfs | [https://leetcode.cn/problems/frog-position-after-t-seconds/](https://leetcode.cn/problems/frog-position-after-t-seconds/) | - |
 | 1402 | 做菜顺序 | sort,dp | [https://leetcode.cn/problems/reducing-dishes/](https://leetcode.cn/problems/reducing-dishes/) | - |
 | 1472 | 浏览器历史 | stack | [https://leetcode-cn.com/problems/design-browser-history/](https://leetcode-cn.com/problems/design-browser-history/) | - |
+| 1483 | 树节点的第 K 个祖先 | binLift,dp | [https://leetcode.cn/problems/kth-ancestor-of-a-tree-node/](https://leetcode.cn/problems/kth-ancestor-of-a-tree-node/) | 二进制偏移 |
 | 1526 | 形成目标数组的子数组最少增加次数 | segTree | [https://leetcode-cn.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/](https://leetcode-cn.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/) | 数学 |
+| 1537 | 最大得分 | twoPtr | [https://leetcode.cn/problems/get-the-maximum-score/submissions/](https://leetcode.cn/problems/get-the-maximum-score/submissions/) | - |
 | 1546 | 非重叠子数组和的个数 | prefixSum,hash | [https://leetcode-cn.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/submissions/](https://leetcode-cn.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/submissions/) | 前缀和 |
 | 1569 | 将子数组重新排序得到同一个二叉查找树的方案数 | bst，recur | [https://leetcode-cn.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/](https://leetcode-cn.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/) | 二叉搜索树，recur |
+| 1579 | 保证图可完全遍历的最大删除边数 | uf,reverseThink | [https://leetcode.cn/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/](https://leetcode.cn/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/) | 逆向思维 |
 | 1583 | 不开心朋友个数 | arr,hash | [https://leetcode-cn.com/problems/count-unhappy-friends/](https://leetcode-cn.com/problems/count-unhappy-friends/) | - |
 | 1590 | 最短子数组移除被k整除 | prefixSum,hash | [https://leetcode-cn.com/problems/make-sum-divisible-by-p/](https://leetcode-cn.com/problems/make-sum-divisible-by-p/) | 前缀和，hash |
 | 1606 | 找到处理最多请求的服务器 | map/set,sim | [https://leetcode-cn.com/problems/find-servers-that-handled-most-number-of-requests/](https://leetcode-cn.com/problems/find-servers-that-handled-most-number-of-requests/) | 有序集合，模拟 |
+| 1617 | 统计子树中城市之间最大距离 | bfs | [https://leetcode.cn/problems/count-subtrees-with-max-distance-between-cities/](https://leetcode.cn/problems/count-subtrees-with-max-distance-between-cities/) | - |
 | 1669 | 合并两个链表 | ll | [https://leetcode-cn.com/problems/merge-in-between-linked-lists/](https://leetcode-cn.com/problems/merge-in-between-linked-lists/) | - |
 | 1696 | 最大跳跃所得 | mw,heap | [https://leetcode-cn.com/problems/jump-game-vi/submissions/](https://leetcode-cn.com/problems/jump-game-vi/submissions/) | 滑动窗口，最大堆 |
 | 1703 | 最小移动数量获得连续k个1 | math,prefixSum,mw | [https://leetcode-cn.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones](https://leetcode-cn.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones) | 滑动窗口,前缀和 |
+| 1719 | 重构一棵树的方案数 | trick/tree | [https://leetcode.cn/problems/number-of-ways-to-reconstruct-a-tree/](https://leetcode.cn/problems/number-of-ways-to-reconstruct-a-tree/) | - |
+| 1755 | 最接近目标值的子序列和
+ | twoPtr,statusCompression | [https://leetcode.cn/problems/closest-subsequence-sum/](https://leetcode.cn/problems/closest-subsequence-sum/) | 杨氏矩阵 |
 | 1760 | 球的出口 | sim | [https://leetcode-cn.com/problems/where-will-the-ball-fall/](https://leetcode-cn.com/problems/where-will-the-ball-fall/) | - |
 | 1793 | 好子数组的最大分数 | monoStack | [https://leetcode-cn.com/problems/maximum-score-of-a-good-subarray/](https://leetcode-cn.com/problems/maximum-score-of-a-good-subarray/) | 单调栈 |
 | 1808 | 最大好因子个数 | math | [https://leetcode-cn.com/problems/maximize-number-of-nice-divisors/](https://leetcode-cn.com/problems/maximize-number-of-nice-divisors/) | math |
@@ -234,8 +261,13 @@
 | 1857 | 有向图中最大颜色值 | graph,topoSort,dp | [https://leetcode-cn.com/problems/largest-color-value-in-a-directed-graph/](https://leetcode-cn.com/problems/largest-color-value-in-a-directed-graph/) | 拓扑排序，动态规划 |
 | 1877 | 最小最大数对和 | arr | [https://leetcode-cn.com/problems/minimize-maximum-pair-sum-in-array/](https://leetcode-cn.com/problems/minimize-maximum-pair-sum-in-array/) | - |
 | 1889 | 最小空间浪费 | arr,binSear,prefixSum | [https://leetcode-cn.com/problems/minimum-space-wasted-from-packaging/submissions/](https://leetcode-cn.com/problems/minimum-space-wasted-from-packaging/submissions/) | 二分查找,前缀和 |
+| 1928 | 规定时间内到达终点的最小花费 | graph/dp | [https://leetcode.cn/problems/minimum-cost-to-reach-destination-in-time/](https://leetcode.cn/problems/minimum-cost-to-reach-destination-in-time/) | - |
 | 1944 | 队列中可以看到的人数 | monoStack | [https://leetcode-cn.com/problems/number-of-visible-people-in-a-queue/](https://leetcode-cn.com/problems/number-of-visible-people-in-a-queue/) | 单调栈 |
 | 2014 | 重复 K 次的最长子序列 | dictOrder,perm | [https://leetcode-cn.com/problems/largest-color-value-in-a-directed-graph/](https://leetcode-cn.com/problems/largest-color-value-in-a-directed-graph/) | 排列，字典序 |
 | 2025 | 分割数组最多方案数 | hash,preSum | [https://leetcode-cn.com/problems/maximum-number-of-ways-to-partition-an-array/](https://leetcode-cn.com/problems/maximum-number-of-ways-to-partition-an-array/) | 前缀和，hash |
 | 2030 | 含特定字母的最小子序列 | monoStack | [https://leetcode-cn.com/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter/](https://leetcode-cn.com/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter/) | 单调栈 |
+| 2035 | 将数组分成两个数组并最小化数组和的差 | statusCompression,twoPtr | [https://leetcode.cn/problems/partition-array-into-two-arrays-to-minimize-sum-difference/](https://leetcode.cn/problems/partition-array-into-two-arrays-to-minimize-sum-difference/) | 杨氏矩阵 |
+| 2065 | 规定时间内路径的最大价值 | graph/backTrack | [https://leetcode.cn/problems/maximum-path-quality-of-a-graph/](https://leetcode.cn/problems/maximum-path-quality-of-a-graph/) |  |
+| lcp10 | 二叉树任务调度 | bt | [https://leetcode.cn/problems/er-cha-shu-ren-wu-diao-du/](https://leetcode.cn/problems/er-cha-shu-ren-wu-diao-du/)
+ | - |
 |  |  |  |  |  |
