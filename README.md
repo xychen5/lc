@@ -212,6 +212,7 @@
 | 1106 | 解析bool表达式 | recur | [https://leetcode-cn.com/problems/parsing-a-boolean-expression/](https://leetcode-cn.com/problems/parsing-a-boolean-expression/) | 递归 |
 | 1124 | 最长良好表现时间段 | hash,monoStack,prefixSum | [https://leetcode-cn.com/problems/longest-well-performing-interval/](https://leetcode-cn.com/problems/longest-well-performing-interval/) | 前缀和，单调栈 |
 | 1171 | 移除0和子链表 | ll,prefixSum | [https://leetcode-cn.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/](https://leetcode-cn.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/) | 前缀和 |
+| 1255 | 最大单词分数从字母集合中 | backTrack/statusCompression | [https://leetcode.cn/problems/maximum-score-words-formed-by-letters/](https://leetcode.cn/problems/maximum-score-words-formed-by-letters/) | - |
 | 1292 | 最大正方形边长 | bs,prefixSum | [https://leetcode-cn.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/](https://leetcode-cn.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/) | 前缀和 |
 | 1316 | 不同的循环子字符串 | rabin-karp | [https://leetcode-cn.com/problems/distinct-echo-substrings/](https://leetcode-cn.com/problems/distinct-echo-substrings/) | 拉宾-卡普算法(o(n)字符串匹配) |
 | 1373 | 二叉搜索子树的最大键值和 | bst | [https://leetcode-cn.com/problems/maximum-sum-bst-in-binary-tree/](https://leetcode-cn.com/problems/maximum-sum-bst-in-binary-tree/) | 二叉搜索树 |
