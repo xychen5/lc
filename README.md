@@ -238,6 +238,7 @@
 | 1373 | 二叉搜索子树的最大键值和 | bst | [https://leetcode-cn.com/problems/maximum-sum-bst-in-binary-tree/](https://leetcode-cn.com/problems/maximum-sum-bst-in-binary-tree/) | 二叉搜索树 |
 | 1377 | T秒后青蛙的位置 | bfs | [https://leetcode.cn/problems/frog-position-after-t-seconds/](https://leetcode.cn/problems/frog-position-after-t-seconds/) | - |
 | 1402 | 做菜顺序 | sort,dp | [https://leetcode.cn/problems/reducing-dishes/](https://leetcode.cn/problems/reducing-dishes/) | - |
+| 1425 | 带限制最大子序列和 | dp/heap | [https://leetcode.cn/problems/constrained-subsequence-sum/](https://leetcode.cn/problems/constrained-subsequence-sum/) | - |
 | 1472 | 浏览器历史 | stack | [https://leetcode-cn.com/problems/design-browser-history/](https://leetcode-cn.com/problems/design-browser-history/) | - |
 | 1483 | 树节点的第 K 个祖先 | binLift,dp | [https://leetcode.cn/problems/kth-ancestor-of-a-tree-node/](https://leetcode.cn/problems/kth-ancestor-of-a-tree-node/) | 二进制偏移 |
 | 1526 | 形成目标数组的子数组最少增加次数 | segTree | [https://leetcode-cn.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/](https://leetcode-cn.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/) | 数学 |
