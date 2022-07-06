@@ -16,7 +16,6 @@
 | 最大/最小堆/优先队列 | min/max heap |
 | 数组 | arr |
 | 链表 | linked list(ll) |
-| 优先队列 | priority queue |
 | 哈希 | hash |
 | 有序集合 | set |
 | 差分数组 | diff array(da) |
@@ -241,6 +240,7 @@
 | 1425 | 带限制最大子序列和 | dp/heap | [https://leetcode.cn/problems/constrained-subsequence-sum/](https://leetcode.cn/problems/constrained-subsequence-sum/) | - |
 | 1472 | 浏览器历史 | stack | [https://leetcode-cn.com/problems/design-browser-history/](https://leetcode-cn.com/problems/design-browser-history/) | - |
 | 1483 | 树节点的第 K 个祖先 | binLift,dp | [https://leetcode.cn/problems/kth-ancestor-of-a-tree-node/](https://leetcode.cn/problems/kth-ancestor-of-a-tree-node/) | 二进制偏移 |
+| 1499 | 满足不等式的最大值 | heap/mv | [https://leetcode.cn/problems/max-value-of-equation/](https://leetcode.cn/problems/max-value-of-equation/) | - |
 | 1526 | 形成目标数组的子数组最少增加次数 | segTree | [https://leetcode-cn.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/](https://leetcode-cn.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/) | 数学 |
 | 1537 | 最大得分 | twoPtr | [https://leetcode.cn/problems/get-the-maximum-score/submissions/](https://leetcode.cn/problems/get-the-maximum-score/submissions/) | - |
 | 1546 | 非重叠子数组和的个数 | prefixSum,hash | [https://leetcode-cn.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/submissions/](https://leetcode-cn.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/submissions/) | 前缀和 |
