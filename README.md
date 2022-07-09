@@ -272,6 +272,7 @@
 | 2035 | 将数组分成两个数组并最小化数组和的差 | statusCompression,twoPtr | [https://leetcode.cn/problems/partition-array-into-two-arrays-to-minimize-sum-difference/](https://leetcode.cn/problems/partition-array-into-two-arrays-to-minimize-sum-difference/) | 杨氏矩阵 |
 | 2065 | 规定时间内路径的最大价值 | graph/backTrack | [https://leetcode.cn/problems/maximum-path-quality-of-a-graph/](https://leetcode.cn/problems/maximum-path-quality-of-a-graph/) |  |
 | 2106 | k步最多摘水果 | preSum | [https://leetcode.cn/problems/maximum-fruits-harvested-after-at-most-k-steps/](https://leetcode.cn/problems/maximum-fruits-harvested-after-at-most-k-steps/) | - |
+| 2302 | 统计得分小于 K 的子数组数目 | mw | [https://leetcode.cn/problems/count-subarrays-with-score-less-than-k/](https://leetcode.cn/problems/count-subarrays-with-score-less-than-k/) | - |
 | lcp10 | 二叉树任务调度 | bt | [https://leetcode.cn/problems/er-cha-shu-ren-wu-diao-du/](https://leetcode.cn/problems/er-cha-shu-ren-wu-diao-du/)
  | - |
 |  |  |  |  |  |
