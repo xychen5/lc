@@ -56,6 +56,7 @@
 | kmp字符串匹配 | kmp算法 |
 | 状态压缩 | statusCompression |
 | 二进制偏移 | binLift |
+| 掩码 | bitmask |
 | 迪杰斯塔拉 | dijstra |
 | tarjan算法 | tarjan算法 |
 
@@ -228,6 +229,7 @@
 | 1157 | 子数组中占绝大多数的元素 | binSear | [https://leetcode.cn/problems/online-majority-element-in-subarray/](https://leetcode.cn/problems/online-majority-element-in-subarray/) | - |
 | 1163 | 最大字典序字串 | suffixArr | [https://leetcode.cn/problems/last-substring-in-lexicographical-order/](https://leetcode.cn/problems/last-substring-in-lexicographical-order/) | - |
 | 1171 | 移除0和子链表 | ll,prefixSum | [https://leetcode-cn.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/](https://leetcode-cn.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/) | 前缀和 |
+| 1178 | 猜字谜 | bitmask | [https://leetcode.cn/problems/number-of-valid-words-for-each-puzzle/](https://leetcode.cn/problems/number-of-valid-words-for-each-puzzle/) | - |
 | 1192 | 查找集群内的「关键连接」 | graph/dfs | [https://leetcode.cn/problems/critical-connections-in-a-network/](https://leetcode.cn/problems/critical-connections-in-a-network/) | tarjan算法 |
 | 1240 | 贴瓷砖 | backTrack | [https://leetcode.cn/problems/tiling-a-rectangle-with-the-fewest-squares/](https://leetcode.cn/problems/tiling-a-rectangle-with-the-fewest-squares/) | - |
 | 1255 | 最大单词分数从字母集合中 | backTrack/statusCompression | [https://leetcode.cn/problems/maximum-score-words-formed-by-letters/](https://leetcode.cn/problems/maximum-score-words-formed-by-letters/) | - |
