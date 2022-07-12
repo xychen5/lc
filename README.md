@@ -13,7 +13,7 @@
 | 栈 | stack |
 | 单调栈 | monotonous stack(monoStack) |
 | 单调队列 | monotonous queue(monoQueue) |
-| 最大/最小堆/优先队列 | min/max heap |
+| 最大/最小堆/优先队列 | min/max heap, pq |
 | 数组 | arr |
 | 链表 | linked list(ll) |
 | 哈希 | hash |
@@ -74,6 +74,7 @@
 | 0004 | 寻找两个正序数组的中位数 | binSear | [https://leetcode.cn/problems/median-of-two-sorted-arrays/](https://leetcode.cn/problems/median-of-two-sorted-arrays/) | - |
 | 0010 | 正则表达式匹配  | recur | [https://leetcode-cn.com/problems/regular-expression-matching](https://leetcode-cn.com/problems/regular-expression-matching) | recur |
 | 0015 | 三数之和 | twoPtr | [https://leetcode-cn.com/problems/3sum/](https://leetcode-cn.com/problems/3sum/) | - |
+| 0023 | 合并k个升序链表 | heap | [https://leetcode.cn/problems/merge-k-sorted-lists/](https://leetcode.cn/problems/merge-k-sorted-lists/) | - |
 | 0025 | k个一组翻转链表 | recur,ll | [https://leetcode-cn.com/problems/reverse-nodes-in-k-group/](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | recur,ll |
 | 0030 | 串联所有单词的字串 | mw | [https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/) | - |
 | 0032 | 最长有效括号 | dp,arr,stack | [https://leetcode-cn.com/problems/longest-valid-parentheses/](https://leetcode-cn.com/problems/longest-valid-parentheses/) | - |
