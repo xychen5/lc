@@ -269,6 +269,7 @@
 | 1889 | 最小空间浪费 | arr,binSear,prefixSum | [https://leetcode-cn.com/problems/minimum-space-wasted-from-packaging/submissions/](https://leetcode-cn.com/problems/minimum-space-wasted-from-packaging/submissions/) | 二分查找,前缀和 |
 | 1928 | 规定时间内到达终点的最小花费 | graph/dp | [https://leetcode.cn/problems/minimum-cost-to-reach-destination-in-time/](https://leetcode.cn/problems/minimum-cost-to-reach-destination-in-time/) | - |
 | 1944 | 队列中可以看到的人数 | monoStack | [https://leetcode-cn.com/problems/number-of-visible-people-in-a-queue/](https://leetcode-cn.com/problems/number-of-visible-people-in-a-queue/) | 单调栈 |
+| 1948 | 删除系统中的重复文件夹 | dfs/backTrack/trie | [https://leetcode.cn/problems/delete-duplicate-folders-in-system/](https://leetcode.cn/problems/delete-duplicate-folders-in-system/) | - |
 | 2014 | 重复 K 次的最长子序列 | dictOrder,perm | [https://leetcode-cn.com/problems/largest-color-value-in-a-directed-graph/](https://leetcode-cn.com/problems/largest-color-value-in-a-directed-graph/) | 排列，字典序 |
 | 2025 | 分割数组最多方案数 | hash,preSum | [https://leetcode-cn.com/problems/maximum-number-of-ways-to-partition-an-array/](https://leetcode-cn.com/problems/maximum-number-of-ways-to-partition-an-array/) | 前缀和，hash |
 | 2030 | 含特定字母的最小子序列 | monoStack | [https://leetcode-cn.com/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter/](https://leetcode-cn.com/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter/) | 单调栈 |
