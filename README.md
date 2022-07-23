@@ -254,6 +254,7 @@
 | 1606 | 找到处理最多请求的服务器 | map/set,sim | [https://leetcode-cn.com/problems/find-servers-that-handled-most-number-of-requests/](https://leetcode-cn.com/problems/find-servers-that-handled-most-number-of-requests/) | 有序集合，模拟 |
 | 1610 | 可见顶点的最大数目 | mw | [https://leetcode.cn/problems/maximum-number-of-visible-points/](https://leetcode.cn/problems/maximum-number-of-visible-points/) | - |
 | 1617 | 统计子树中城市之间最大距离 | bfs | [https://leetcode.cn/problems/count-subtrees-with-max-distance-between-cities/](https://leetcode.cn/problems/count-subtrees-with-max-distance-between-cities/) | - |
+| 1649 | 通过指令创建有序数组 | bit | [https://leetcode.cn/problems/create-sorted-array-through-instructions/](https://leetcode.cn/problems/create-sorted-array-through-instructions/) | - |
 | 1669 | 合并两个链表 | ll | [https://leetcode-cn.com/problems/merge-in-between-linked-lists/](https://leetcode-cn.com/problems/merge-in-between-linked-lists/) | - |
 | 1696 | 最大跳跃所得 | mw,heap | [https://leetcode-cn.com/problems/jump-game-vi/submissions/](https://leetcode-cn.com/problems/jump-game-vi/submissions/) | 滑动窗口，最大堆 |
 | 1703 | 最小移动数量获得连续k个1 | math,prefixSum,mw | [https://leetcode-cn.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones](https://leetcode-cn.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones) | 滑动窗口,前缀和 |
