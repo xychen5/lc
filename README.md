@@ -107,6 +107,7 @@
 | 0141 | 单向链表有回环 | ll, saveSpace | [https://leetcode-cn.com/problems/linked-list-cycle/](https://leetcode-cn.com/problems/linked-list-cycle/) | floyd判圈 |
 | 0142 | 单向链表有回环2 | ll, saveSpace | [https://leetcode-cn.com/problems/linked-list-cycle-ii/](https://leetcode-cn.com/problems/linked-list-cycle-ii) | floyd判圈 |
 | 0149 | 直线上最多的点 | math | [https://leetcode-cn.com/problems/max-points-on-a-line/](https://leetcode-cn.com/problems/max-points-on-a-line/) | - |
+| 0154 | 旋转后的排序数组找最小值 | binSear | [https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array-ii/](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array-ii/) | - |
 | 0164 | 最大间距 | sort | [https://leetcode-cn.com/problems/maximum-gap/](https://leetcode-cn.com/problems/maximum-gap/) | 桶排序 |
 | 0174 | 地下城 | dp | [https://leetcode-cn.com/problems/dungeon-game/](https://leetcode-cn.com/problems/dungeon-game/) | - |
 | 0208 | 实现 Trie (前缀树) | trie | [https://leetcode-cn.com/problems/implement-trie-prefix-tree/](https://leetcode-cn.com/problems/implement-trie-prefix-tree/) | trie |
