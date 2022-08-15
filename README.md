@@ -170,6 +170,7 @@
 | 0600 | 不含连续1的非负整数 | dp | [https://leetcode-cn.com/problems/non-negative-integers-without-consecutive-ones/](https://leetcode-cn.com/problems/non-negative-integers-without-consecutive-ones/) | - |
 | 0611 | 有效三角个数 | dp,arr | [https://leetcode-cn.com/problems/valid-triangle-number/](https://leetcode-cn.com/problems/valid-triangle-number/) | - |
 | 0629 | k个逆序数对的方案数 | dp | [https://leetcode-cn.com/problems/k-inverse-pairs-array/](https://leetcode-cn.com/problems/k-inverse-pairs-array/) | 区间dp |
+| 0630 | 课程表3 | heap | [https://leetcode.cn/problems/course-schedule-iii/](https://leetcode.cn/problems/course-schedule-iii/) | - |
 | 0632 | 最小区间 | heap,greedy | [https://leetcode-cn.com/problems/smallest-range-covering-elements-from-k-lists/](https://leetcode-cn.com/problems/smallest-range-covering-elements-from-k-lists/) | - |
 | 0639 | 解码方法数 | dp | [https://leetcode-cn.com/problems/decode-ways-ii/](https://leetcode-cn.com/problems/decode-ways-ii/) | - |
 | 0664 | 奇怪打印机 | dp | [https://leetcode-cn.com/problems/strange-printer](https://leetcode-cn.com/problems/strange-printer) | 区间dp |
