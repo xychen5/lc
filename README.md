@@ -31,6 +31,12 @@
 | - | - |
 | 贪心 | greedy |
 | 动态规划 | dp |
+| 区间动态规划 | idp |
+| dfs | dfs |
+| bfs | bfs |
+| 并查集 | unionSet(us) |
+| 二分查找 | binSear/bs |
+| 排列组合 | permutation/combination(perm,comb) |
 | dfs | dfs |
 | bfs | bfs |
 | 并查集 | unionSet(us) |
@@ -214,9 +220,11 @@
 | 0904 | 水果成蓝(同0992) | mv,map | [https://leetcode-cn.com/problems/fruit-into-baskets/](https://leetcode-cn.com/problems/fruit-into-baskets/) | 滑动窗口,map |
 | 0912 | 三种基础排序 |  | [https://leetcode-cn.com/problems/sort-an-array/](https://leetcode-cn.com/problems/sort-an-array/) |  |
 | 0924 | 最小化病毒软件传播 | graph,us | [https://leetcode-cn.com/problems/minimize-malware-spread/](https://leetcode-cn.com/problems/minimize-malware-spread/) | 并查集 |
-| 0952 | 最大质因数联通分量大小 | graph,us | [https://leetcode-cn.com/problems/largest-component-size-by-common-factor](https://leetcode-cn.com/problems/largest-component-size-by-common-factor) | 并查集 |
+| 0927 | 三等分二进制 | trick | [https://leetcode.cn/problems/three-equal-parts/](https://leetcode.cn/problems/three-equal-parts/) | - |
 | 0928 | 最小化病毒软件传播2 | graph,us | [https://leetcode-cn.com/problems/minimize-malware-spread-ii/](https://leetcode-cn.com/problems/minimize-malware-spread-ii/) | 并查集 |
+| 0952 | 最大质因数联通分量大小 | graph,us | [https://leetcode-cn.com/problems/largest-component-size-by-common-factor](https://leetcode-cn.com/problems/largest-component-size-by-common-factor) | 并查集 |
 | 0968 | 监控二叉树 | graph/dfs/memo | [https://leetcode-cn.com/problems/binary-tree-cameras/submissions/](https://leetcode-cn.com/problems/binary-tree-cameras/submissions/) | 记忆化搜索 |
+| 0975 | 奇偶跳 | monoStack | [https://leetcode.cn/problems/odd-even-jump/](https://leetcode.cn/problems/odd-even-jump/) | - |
 | 0980 | 不同路径3 | backTrack | [https://leetcode.cn/problems/unique-paths-iii/](https://leetcode.cn/problems/unique-paths-iii/) | - |
 | 0982 | 按位与为1的三元组个数 | hash | [https://leetcode-cn.com/problems/triples-with-bitwise-and-equal-to-zero/submissions/](https://leetcode-cn.com/problems/triples-with-bitwise-and-equal-to-zero/submissions/) | - |
 | 0987 | 垂序遍历 | dfs, hash | [https://leetcode-cn.com/problems/vertical-order-traversal-of-a-binary-tree/](https://leetcode-cn.com/problems/vertical-order-traversal-of-a-binary-tree/) | - |
@@ -224,6 +232,7 @@
 | 0995 |  K 连续位的最小翻转次数 | mw,da | [https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips/](https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips/) | 滑动窗口，差分数组 |
 | 0996 | 正方形数组的排列个数 | perm,backTrack,memo | [https://leetcode.cn/problems/number-of-squareful-arrays/](https://leetcode.cn/problems/number-of-squareful-arrays/)
  | - |
+| 1000 | 合并石头最低成本 | idp | [https://leetcode.cn/problems/minimum-cost-to-merge-stones/](https://leetcode.cn/problems/minimum-cost-to-merge-stones/) | - |
 | 1028 | 前序和深度恢复二叉树 | sim | [https://leetcode.cn/problems/recover-a-tree-from-preorder-traversal/](https://leetcode.cn/problems/recover-a-tree-from-preorder-traversal/) | - |
 | 1032 | 字符流检测 | trie | [https://leetcode-cn.com/problems/stream-of-characters/](https://leetcode-cn.com/problems/stream-of-characters/) | 字典树 |
 | 1036 | 逃离巨大迷宫 | dfs | [https://leetcode.cn/problems/escape-a-large-maze/submissions/](https://leetcode.cn/problems/escape-a-large-maze/submissions/) | - |
