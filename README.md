@@ -132,6 +132,7 @@
 | 0315 | 计算右侧小于当前元素的个数 | bit | [https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/) | bit |
 | 0312 | 戳气球获得最大硬币 | reverseThink,dp | [https://leetcode-cn.com/problems/dungeon-game/](https://leetcode-cn.com/problems/dungeon-game/) | - |
 | 0321 | 拼接最大数 | monoStack | [https://leetcode-cn.com/problems/longest-duplicate-substring/](https://leetcode-cn.com/problems/longest-duplicate-substring/) | 单调栈 |
+| 0322 | 零钱 | dp | [https://leetcode.cn/problems/coin-change/](https://leetcode.cn/problems/coin-change/) | - |
 | 0327 | 区间和的个数 | bit | [https://leetcode-cn.com/problems/count-of-range-sum/](https://leetcode-cn.com/problems/count-of-range-sum/) | bit |
 | 0328 | 奇偶链表 | ll, saveSpace | [https://leetcode-cn.com/problems/odd-even-linked-list/](https://leetcode-cn.com/problems/odd-even-linked-list/) | - |
 | 0329 | 矩阵中的最长递增路径 | dfs/memo | [https://leetcode-cn.com/problems/longest-increasing-path-in-a-matrix/](https://leetcode-cn.com/problems/longest-increasing-path-in-a-matrix/) | dfs记忆化搜索 |
