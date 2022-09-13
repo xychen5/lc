@@ -88,6 +88,7 @@
 | 0037 | 解数独 | dfs | [https://leetcode-cn.com/problems/sudoku-solver/](https://leetcode-cn.com/problems/sudoku-solver/) | - |
 | 0041 | 缺失的第一个正数 | trick, ori | [https://leetcode.cn/problems/first-missing-positive/](https://leetcode.cn/problems/first-missing-positive/) | - |
 | 0043_1 | 数1的个数 | math | [https://leetcode-cn.com/problems/1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof/](https://leetcode-cn.com/problems/1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof/) | math |
+| 0044 | 通配符匹配 | dp | [https://leetcode.cn/problems/wildcard-matching/](https://leetcode.cn/problems/wildcard-matching/) | - |
 | 0046 | 全排列 | perm |[https://leetcode-cn.com/problems/permutations/](https://leetcode-cn.com/problems/permutations/)  | perm |
 | 0047 | 去重全排列 | perm | [https://leetcode-cn.com/problems/permutations-ii/](https://leetcode-cn.com/problems/permutations-ii/) | perm |
 | 0051 | n皇后 | backTrack | [https://leetcode-cn.com/problems/n-queens/](https://leetcode-cn.com/problems/n-queens/) | - |
