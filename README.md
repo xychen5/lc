@@ -94,6 +94,7 @@
 | 0051 | n皇后 | backTrack | [https://leetcode-cn.com/problems/n-queens/](https://leetcode-cn.com/problems/n-queens/) | - |
 | 0051_1 | 数组中逆序数对个数 | bit | [https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) | bit |
 | 0053 | 最大子序和 | dp,arr | [https://leetcode-cn.com/problems/maximum-subarray/](https://leetcode-cn.com/problems/maximum-subarray/) | - |
+| 0060 | k大排列序列 | perm/dfs | [https://leetcode.cn/problems/permutation-sequence/](https://leetcode.cn/problems/permutation-sequence) | - |
 | 0062 | 不同路径1 | dp | [https://leetcode-cn.com/problems/unique-paths/](https://leetcode-cn.com/problems/unique-paths/) | - |
 | 0063 | 不同路径2 | dp | [https://leetcode-cn.com/problems/unique-paths-ii/](https://leetcode-cn.com/problems/unique-paths-ii/) | - |
 | 0067 | 旋转链表 | ll | [https://leetcode-cn.com/problems/rotate-list/](https://leetcode-cn.com/problems/rotate-list/) | - |
