@@ -97,6 +97,7 @@
 | 0060 | k大排列序列 | perm/dfs | [https://leetcode.cn/problems/permutation-sequence/](https://leetcode.cn/problems/permutation-sequence) | - |
 | 0062 | 不同路径1 | dp | [https://leetcode-cn.com/problems/unique-paths/](https://leetcode-cn.com/problems/unique-paths/) | - |
 | 0063 | 不同路径2 | dp | [https://leetcode-cn.com/problems/unique-paths-ii/](https://leetcode-cn.com/problems/unique-paths-ii/) | - |
+| 0065 | 有效数字 | string | [https://leetcode.cn/problems/valid-number/](https://leetcode.cn/problems/valid-number/) | - |
 | 0067 | 旋转链表 | ll | [https://leetcode-cn.com/problems/rotate-list/](https://leetcode-cn.com/problems/rotate-list/) | - |
 | 0072 | 编辑距离 | dp | [https://leetcode.cn/problems/edit-distance/submissions/](https://leetcode.cn/problems/edit-distance/submissions/) | - |
 | 0073 | 矩阵置零 | saveSpace | [https://leetcode-cn.com/problems/set-matrix-zeroes/](https://leetcode-cn.com/problems/set-matrix-zeroes/) | - |
