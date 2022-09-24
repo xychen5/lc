@@ -273,6 +273,7 @@
 | 1579 | 保证图可完全遍历的最大删除边数 | uf,reverseThink | [https://leetcode.cn/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/](https://leetcode.cn/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/) | 逆向思维 |
 | 1583 | 不开心朋友个数 | arr,hash | [https://leetcode-cn.com/problems/count-unhappy-friends/](https://leetcode-cn.com/problems/count-unhappy-friends/) | - |
 | 1590 | 最短子数组移除被k整除 | prefixSum,hash | [https://leetcode-cn.com/problems/make-sum-divisible-by-p/](https://leetcode-cn.com/problems/make-sum-divisible-by-p/) | 前缀和，hash |
+| 1591 | 奇怪打印机2 | topoSort | [https://leetcode.cn/problems/strange-printer-ii/](https://leetcode.cn/problems/strange-printer-ii/) | - |
 | 1606 | 找到处理最多请求的服务器 | map/set,sim | [https://leetcode-cn.com/problems/find-servers-that-handled-most-number-of-requests/](https://leetcode-cn.com/problems/find-servers-that-handled-most-number-of-requests/) | 有序集合，模拟 |
 | 1610 | 可见顶点的最大数目 | mw | [https://leetcode.cn/problems/maximum-number-of-visible-points/](https://leetcode.cn/problems/maximum-number-of-visible-points/) | - |
 | 1617 | 统计子树中城市之间最大距离 | bfs | [https://leetcode.cn/problems/count-subtrees-with-max-distance-between-cities/](https://leetcode.cn/problems/count-subtrees-with-max-distance-between-cities/) | - |
